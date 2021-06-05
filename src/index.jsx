@@ -17,7 +17,7 @@ import {
 const App = () => {
   return (
     <Router>
-    <div>
+    
       <nav>
         <ul>
           <li>
@@ -55,7 +55,7 @@ const App = () => {
           <Home />
         </Route>
       </Switch>
-    </div>
+    
   </Router>
   )
 };

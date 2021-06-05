@@ -1,13 +1,13 @@
 {
-  "name": "react-starter-kit",
+  "name": "dobrodruh",
   "version": "1.0.0",
-  "description": "Starter kit for React JavaScript project",
+  "description": "web about sustainable travel",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
     "start": "webpack serve --open"
   },
-  "author": "",
+  "contributors": ["Julia Micekova", "Zuzana Franova"],
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.13.10",
