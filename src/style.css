@@ -5,50 +5,50 @@
 }
 
 html {
-font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
   margin: 0;
 }
 
-nav {  
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav>img {
-  height: 7rem;
+nav > img {
+  height: 5rem;
   width: auto;
   margin-left: 1rem;
 }
 
-nav>ul{
+nav > ul {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
   margin: 0;
-  padding:0;  
+  padding: 0;
 }
 
-nav>ul a {
+nav > ul a {
   text-decoration: none;
   background-color: #f6c60c;
   padding: 1rem;
   border-radius: 10px;
-  color:black;
+  color: black;
   transition: 0.3s;
   white-space: nowrap;
 }
 
-nav>ul a:hover {
+nav > ul a:hover {
   text-decoration: none;
   background-color: #8948c6;
-  color:white;
-  /* box-shadow: 0px 5px 10px #8948c6; */  
+  color: white;
+  /* box-shadow: 0px 5px 10px #8948c6; */
 }
 
-nav>ul>li {
-  margin: 0 1rem;
+nav > ul > li {
+  margin: 0 0.5rem;
 }
