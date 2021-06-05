@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 
 const Question = (props) => {
+  const [selectedAnswer, setSelectedAnswer] = useState(null);
+
   const handleQuestionNext = (e) => {
     e.preventDefault();
-    props.onNext();
+    props.onNext(selectedAnswer);
   };
 
   const handleQuestionBack = () => {
@@ -18,7 +20,13 @@ const Question = (props) => {
       <form onSubmit={handleQuestionNext}>
         {props.question.answers.map((answer) => (
           <label key={answer.id}>
-            <input type="radio" name="answer" value={answer.value} required />
+            <input
+              type="radio"
+              name="answer"
+              value={answer.value}
+              onChange={() => setSelectedAnswer(answer)}
+              required
+            />
             {answer.text}
           </label>
         ))}

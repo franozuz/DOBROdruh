@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Redirect, useHistory, useParams } from 'react-router';
 import Question from './Question';
 import questions from './questions.json';
@@ -31,17 +31,23 @@ const Test = () => {
 
   const question = questions[questionIndex];
 
-  const handleNext = () => {
+  const handleNext = (answer) => {
+    localStorage.setItem(question.id, answer.value);
     history.push(`/test/${validId + 1}`);
   };
 
   const handleBack = () => {
     history.goBack();
-  }
+  };
 
   return (
     <section className="test">
-      <Question question={question} onNext={handleNext} onBack={handleBack} isFirst={validId===1}/>
+      <Question
+        question={question}
+        onNext={handleNext}
+        onBack={handleBack}
+        isFirst={validId === 1}
+      />
     </section>
   );
 };
