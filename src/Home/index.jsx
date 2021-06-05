@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <section className="home-test">
         <img
-          src="/assets/img/Illus_1.svg"
+          src="/assets/img/Illustration.svg"
           alt="illustration woman and man trawellers"
         />
         <article className="article-home-test">
