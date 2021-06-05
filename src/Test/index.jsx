@@ -1,8 +1,14 @@
 import React from "react";
+import Question from "./Question";
+import questions from "./questions.json"
 
 
 const Test = () => {
-  return <h2>Test</h2>;
+  const question = questions[0]
+
+  return (
+  <Question question={question} />
+  );
 }
 
 
