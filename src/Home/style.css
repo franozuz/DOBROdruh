@@ -5,6 +5,10 @@
   padding: 0 5%;
 }
 
+.home-test {
+  padding-left: 0;
+}
+
 .home-test > img {
   max-width: 60%;
 }
