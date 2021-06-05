@@ -41,7 +41,7 @@ const Test = () => {
 
   return (
     <section className="test">
-      <Question question={question} onNext={handleNext} onBack={handleBack}/>
+      <Question question={question} onNext={handleNext} onBack={handleBack} isFirst={validId===1}/>
     </section>
   );
 };

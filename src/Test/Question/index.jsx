@@ -18,11 +18,11 @@ const Question = (props) => {
       <form onSubmit={handleQuestionNext}>
         {props.question.answers.map((answer) => (
           <label key={answer.id}>
-            <input type="radio" name="answer" value={answer.value} />
+            <input type="radio" name="answer" value={answer.value} required />
             {answer.text}
           </label>
         ))}
-        <button onClick={handleQuestionBack}>Zpět</button>
+        {!props.isFirst && <button onClick={handleQuestionBack}>Zpět</button>}
         <button type="submit">Další</button>
       </form>
     </div>
