@@ -2,8 +2,8 @@ import React from 'react';
 
 const Tips = () => {
   return (
-    <>
-      <h1>Rady a tipy jak CESTOVAT UDRŽITELNĚJI</h1>;<h3>PLÁNOVÁNÍ CESTY</h3>
+    <section>
+      <h1>Rady a tipy jak CESTOVAT UDRŽITELNĚJI</h1><h3>PLÁNOVÁNÍ CESTY</h3>
       <p>
         {' '}
         Je jasné, že když se potřebujete dostat rychlo do Kanady, musíte letět.
@@ -109,7 +109,7 @@ const Tips = () => {
         <br />A co vy? Už jste někde letos byli? Chystáte se? A máte nějaké
         vlastní vychytávky, jak cestovat udržitelně? Napište do komentářů!
       </p>
-    </>
+    </section>
   );
 };
 
