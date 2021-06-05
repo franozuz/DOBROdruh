@@ -115,3 +115,9 @@
   color: #f6c60c;
   margin: 0 1rem;
 }
+
+.leaf {
+  width: 600px;
+  align-self: flex-end;
+  margin-top: -15rem;
+}
