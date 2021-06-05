@@ -1,12 +1,19 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './style.css';
 
 const Question = (props) => {
-  const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [selectedAnswerId, setSelectedAnswerId] = useState(null);
+
+  useEffect(() => {
+    const answerId = localStorage.getItem(props.question.id);
+    if (answerId) {
+      setSelectedAnswerId(answerId);
+    }
+  }, [props.question]);
 
   const handleQuestionNext = (e) => {
     e.preventDefault();
-    props.onNext(selectedAnswer);
+    props.onNext(selectedAnswerId);
   };
 
   const handleQuestionBack = () => {
@@ -24,7 +31,8 @@ const Question = (props) => {
               type="radio"
               name="answer"
               value={answer.value}
-              onChange={() => setSelectedAnswer(answer)}
+              onChange={() => setSelectedAnswerId(answer.id)}
+              checked={selectedAnswerId === answer.id}
               required
             />
             {answer.text}
