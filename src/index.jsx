@@ -40,7 +40,7 @@ const App = () => {
       </nav>
 
       <Switch>
-        <Route path="/test">
+        <Route path="/test/:id?">
           <Test />
         </Route>
         <Route path="/calculator">
