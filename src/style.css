@@ -6,10 +6,17 @@
 
 html {
 font-family: "Roboto", sans-serif;
+
 }
 
 body {
   margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 nav {  
