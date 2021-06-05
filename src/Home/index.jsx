@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <section className="home-test">
         <img
-          src="/assets/img/Illus_MEDIUM.png"
+          src="/assets/img/Illus_1.svg"
           alt="illustration woman and man trawellers"
         />
         <article>
@@ -20,25 +20,29 @@ const Home = () => {
             dále. Jak na tom jseš ty? Jsi vzorný DOBROdruh?
           </p>
           <h3>Otestuj se v našem testu a zjisti, co ještě můžeš zlepšit.</h3>
-          <button className="btn-test">Spustit test</button>
+          <button>Spustit test</button>
         </article>
       </section>
       <section className="calculator">
-        <article>
-          <h2>Zjisti a vykompenzuj uhlíkovou stopu své příští cesty</h2>
-          <p>
-            Turizmus je odpovědný za přibližně 8% celosvětových uhlíkových
-            emisí. Zadej místo, odkud cestuješ, cílovou destinaci a způsob
-            dopravy.
-          </p>
-          <form action="">
-            <label htmlFor="">
-              <input type="Odkud" placeholder="Odkud" />
-              <input type="Kam" placeholder="Kam" />
-              <input type="Typ dopravy" placeholder="Typ dopravy" />
-            </label>
-          </form>
-          <button className="btn-test">Spočítat</button>
+        <article className="article-calculator">
+          <div className="text-calculator">
+            <h2>Zjisti a vykompenzuj uhlíkovou stopu své příští cesty</h2>
+            <p>
+              Turizmus je odpovědný za přibližně 8% celosvětových uhlíkových
+              emisí. Zadej místo, odkud cestuješ, cílovou destinaci a způsob
+              dopravy.
+            </p>
+          </div>
+
+          <div className="calculator-input">
+            <input type="text" placeholder="Odkud" id="destination" />
+            <div id="output1"></div>
+            <input type="text" placeholder="Kam" id="destination" />
+            <div id="output2"></div>
+            <input type="text" placeholder="Druh dopravy" id="destination" />
+          </div>
+          <div id="output3"></div>
+          <button>Spočítat</button>
         </article>
       </section>
       <section className="projects">
