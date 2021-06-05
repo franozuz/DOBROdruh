@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1Q",
+    "question": "Při bezpečnostní kontrole na letišti...",
+    "answers": [
+      {
+        "id": "1A",
+        "text": "vyhodím láhev s vodou do koše na to určeného.",
+        "value": 1
+      },
+      {
+        "id": "1B",
+        "text": "neberu si žádnou vodu na letište.",
+        "value": 2
+      },
+      {
+        "id": "1C",
+        "text": "přinesu si vlastní láhev a po kontrole si ji naplním v pítku.",
+        "value": 3
+      },
+      {
+        "id": "1D",
+        "text": "ne, nelétam letadlem.",
+        "value": 4
+      }
+    ]
+  },
+  {
+    "id": "2Q",
+    "question": "Na dovolené v hotelu...",
+    "answers": [
+      {
+        "id": "2A",
+        "text": "si ručníky nechám měnit jen když je to opravdu potřeba.",
+        "value": 2
+      },
+      {
+        "id": "2B",
+        "text": "ručníky vůbec nepoužívam, jen tak uschnu.",
+        "value": 3
+      },
+      {
+        "id": "2C",
+        "text": "ručníky si nechám vyměnit každý den.",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "3Q",
+    "question": "Během všech svých cest a dovolených...",
+    "answers": [
+      {
+        "id": "3A",
+        "text": "vždy sbírám odpadky po druhých lidech, když je vidím na zemi.",
+        "value": 3
+      },
+      {
+        "id": "3B",
+        "text": "už jsem někdy zvedl/a ze země cizí odpadky a hodila do koše.",
+        "value": 3
+      },
+      {
+        "id": "3C",
+        "text": "lidi si maj svý odpadky zvedat sami, proč bych to měl/a dělat já?",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "4Q",
+    "question": "Na dovolené v Egyptě...",
+    "answers": [
+      {
+        "id": "3A",
+        "text": "jsem dobrodruh, piju kohoutkovou vodu.",
+        "value": 3
+      },
+      {
+        "id": "3B",
+        "text": "nechci, aby mě stihla faraonova pomsta, kupuji balenou vodu.",
+        "value": 1
+      },
+      {
+        "id": "3C",
+        "text": "přinesu si vlastní láhev a filter a piju kohoutkovou.",
+        "value": 3
+      }
+    ]
+  }
+]

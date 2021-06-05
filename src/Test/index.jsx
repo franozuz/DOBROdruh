@@ -1,8 +1,18 @@
 import React from "react";
+import Question from "./Question";
+import questions from "./questions.json"
+import './style.css';
 
 
 const Test = () => {
-  return <h2>Test</h2>;
+  const question = questions[0]
+
+  return (
+    <section>
+      <Question question={question} />
+    </section>
+  
+  );
 }
 
 
