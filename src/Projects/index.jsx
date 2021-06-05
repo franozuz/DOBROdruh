@@ -1,7 +1,11 @@
 import React from "react";
 
 const Projects = () => {
-  return <h2>Eko projekty</h2>;
-}
+  return (
+    <>
+    <h1> EKO projekty</h1>
+    </>
+  )
+};
 
 export default Projects;
