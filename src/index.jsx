@@ -1,25 +1,18 @@
 import React from 'react';
-import Home from "./Home/index"
-import Test from "./Test/index"
-import Calculator from "./Calculator/index"
-import Tips from "./Tips/index"
-import Projects from "./Projects/index"
+import Home from './Home/index';
+import Test from './Test/index';
+import Calculator from './Calculator/index';
+import Tips from './Tips/index';
+import Projects from './Projects/index';
 import { render } from 'react-dom';
 import './style.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 const App = () => {
   return (
     <Router>
-    
       <nav>
-        <img src="./assets/img/logo.png" alt="logo DOBROdruh"></img>
+        <img src="./assets/img/logo.svg" alt="logo DOBROdruh"></img>
         <ul>
           <li>
             <Link to="/">Domov</Link>
@@ -56,9 +49,8 @@ const App = () => {
           <Home />
         </Route>
       </Switch>
-    
-  </Router>
-  )
+    </Router>
+  );
 };
 
 render(<App />, document.querySelector('#app'));
