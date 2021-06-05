@@ -59,16 +59,10 @@ nav > ul > li {
   margin: 0 0.5rem;
 }
 
-
-
 p {
   font-family: 'Roboto Slab', serif;
 }
 
-.leaf {
-  max-width: 380px;
-  margin-left: 80%;
-}
 footer {
   box-sizing: border-box;
   background: #f6c60c;

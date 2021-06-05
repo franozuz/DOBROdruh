@@ -86,7 +86,7 @@ const Home = () => {
           </article>
         </div>
       </section>
-      <img className="leaf" src="/assets/img/leaf.png" alt="leaf" />
+      <img className="leaf" src="/assets/img/leaf.svg" alt="leaf" />
     </>
   );
 };
