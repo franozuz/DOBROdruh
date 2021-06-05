@@ -44,7 +44,14 @@ const Home = () => {
           <br />
           <input type="text" placeholder="Kam" />
           <br />
-          <input type="text" placeholder="Druh dopravy" />
+          <select name="Druh dopravy" id="transport">
+            <option value="plane">Letadlo</option>
+            <option value="car">Auto</option>
+            <option value="train">Train</option>
+            <option value="bike">Kolo</option>
+            <option value="byfoot">Pěšky</option>
+          </select>
+
           <br />
           <button type="submit">Spočítat</button>
         </form>
@@ -75,6 +82,7 @@ const Home = () => {
           </article>
         </div>
       </section>
+      <img className="leaf" src="/assets/img/leaf.png" alt="leaf" />
     </>
   );
 };
