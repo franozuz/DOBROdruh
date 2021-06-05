@@ -17,6 +17,19 @@ const parseId = (possibleId) => {
   return -1;
 };
 
+const getResultValues = () => {
+  const resultValues = [];
+
+  for (const question of questions) {
+    const answerId = localStorage.getItem(question.id);
+    if (answerId) {
+      const answer = question.answers.find((answer) => answer.id === answerId);
+      resultValues.push(answer.value);
+    }
+  }
+  return resultValues;
+};
+
 const Test = () => {
   const { id } = useParams();
   const history = useHistory();
@@ -33,7 +46,13 @@ const Test = () => {
 
   const handleNext = (answerId) => {
     localStorage.setItem(question.id, answerId);
-    history.push(`/test/${validId + 1}`);
+
+    if (validId >= questions.length) {
+      const resultValues = getResultValues();
+      console.log(resultValues);
+    } else {
+      history.push(`/test/${validId + 1}`);
+    }
   };
 
   const handleBack = () => {
