@@ -39,6 +39,7 @@ nav>ul a {
   border-radius: 10px;
   color:black;
   transition: 0.3s;
+  white-space: nowrap;
 }
 
 nav>ul a:hover {
