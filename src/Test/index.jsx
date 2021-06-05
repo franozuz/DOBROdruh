@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useHistory, useParams } from 'react-router';
+import { Redirect, useHistory, useParams } from 'react-router';
 import Question from './Question';
 import questions from './questions.json';
 import './style.css';
@@ -24,10 +24,10 @@ const Test = () => {
   const validId = parseId(id);
 
   if (validId === -1) {
-    history.push('/test/1');
+    return <Redirect to="/test/1" />;
   }
 
-  const questionIndex = validId !== -1 ? validId - 1 : 0;
+  const questionIndex = validId - 1;
 
   const question = questions[questionIndex];
 
