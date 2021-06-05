@@ -3,7 +3,7 @@ import React from 'react';
 const Tips = () => {
   return (
     <>
-      <h1>Rady a tipy JAK CESTOVAT UDRŽITELNĚJI</h1>;<h3>PLÁNOVÁNÍ CESTY</h3>
+      <h1>Rady a tipy jak CESTOVAT UDRŽITELNĚJI</h1>;<h3>PLÁNOVÁNÍ CESTY</h3>
       <p>
         {' '}
         Je jasné, že když se potřebujete dostat rychlo do Kanady, musíte letět.
