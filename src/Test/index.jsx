@@ -31,13 +31,17 @@ const Test = () => {
 
   const question = questions[questionIndex];
 
-  const handleChange = () => {
+  const handleNext = () => {
     history.push(`/test/${validId + 1}`);
   };
 
+  const handleBack = () => {
+    history.goBack();
+  }
+
   return (
     <section className="test">
-      <Question question={question} onNext={handleChange} />
+      <Question question={question} onNext={handleNext} onBack={handleBack}/>
     </section>
   );
 };
