@@ -22,7 +22,7 @@ const Home = () => {
           </p>
           <h3>Otestuj se v našem testu a zjisti, co ještě můžeš zlepšit.</h3>
           <Link to="/test/1">
-            <button>Spusti test</button>
+            <button className="btn-test">Spusti test</button>
           </Link>
         </article>
       </section>
@@ -40,11 +40,11 @@ const Home = () => {
           </p>
         </article>
         <form className="calculator-input">
-          <input type="text" placeholder="Odkud" />
+          <input type="text" placeholder="Odkud" id="destination" />
           <br />
-          <input type="text" placeholder="Kam" />
+          <input type="text" placeholder="Kam" id="destination" />
           <br />
-          <select name="Druh dopravy" id="transport">
+          <select name="druh dopravy" id="transport">
             <option value="plane">Letadlo</option>
             <option value="car">Auto</option>
             <option value="train">Train</option>
@@ -53,11 +53,15 @@ const Home = () => {
           </select>
 
           <br />
-          <button type="submit">Spočítat</button>
+          <Link to="/calculator">
+            <button className="btn-calculator" type="submit">
+              Spočítat
+            </button>
+          </Link>
         </form>
       </section>
       <section className="projects">
-        <h2>Podpor vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h2>
+        <h2>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h2>
         <div className="article-projects">
           <article className="project1">
             <h3>Zasaď strom </h3>
