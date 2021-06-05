@@ -1,4 +1,9 @@
 import React from 'react';
+import Home from "./Home/index"
+import Test from "./Test/index"
+import Calculator from "./Calculator/index"
+import Tips from "./Tips/index"
+import Projects from "./Projects/index"
 import { render } from 'react-dom';
 import './style.css';
 import {
@@ -7,27 +12,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-
-const Home = () => {
-  return <h2>Domov</h2>;
-}
-
-const Test = () => {
-  return <h2>Test</h2>;
-}
-
-const Calculator = () => {
-  return <h2>CO2 Kalkulačka</h2>;
-}
-
-const Tips = () => {
-  return <h2>Cestovatelské tipy</h2>;
-}
-
-const Projects = () => {
-  return <h2>Eko projekty</h2>;
-}
-
 
 
 const App = () => {
