@@ -4,4 +4,7 @@ section {
   align-items: center;
   flex-direction: column;
   flex-grow: 1;
+  background-image: url('../assets/img/pattern.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
