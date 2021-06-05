@@ -35,11 +35,11 @@ const Home = () => {
           </div>
 
           <div className="calculator-input">
-            <input type="text" placeholder="Odkud" id="destination" />
+            <input type="text" placeholder="Odkud" />
             <div id="output1"></div>
-            <input type="text" placeholder="Kam" id="destination" />
+            <input type="text" placeholder="Kam" />
             <div id="output2"></div>
-            <input type="text" placeholder="Druh dopravy" id="destination" />
+            <input type="text" placeholder="Druh dopravy" />
           </div>
           <div id="output3"></div>
           <button>Spočítat</button>
@@ -51,6 +51,11 @@ const Home = () => {
         <article>Zasaď strom</article>
         <article>Zasaď strom</article>
       </section>
+      <img className="leaf" src="/assets/img/leaf.png" alt="leaf" />
+      <footer>
+        &copy; Made by traWELLers Júlia and Zuzana with great support of Jindra
+        and the team of Czechitas in 2021
+      </footer>
     </>
   );
 };
