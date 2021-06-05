@@ -31,8 +31,8 @@ const Test = () => {
 
   const question = questions[questionIndex];
 
-  const handleNext = (answer) => {
-    localStorage.setItem(question.id, answer.value);
+  const handleNext = (answerId) => {
+    localStorage.setItem(question.id, answerId);
     history.push(`/test/${validId + 1}`);
   };
 
