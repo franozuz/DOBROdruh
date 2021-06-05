@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
           src="/assets/img/Illus_1.svg"
           alt="illustration woman and man trawellers"
         />
-        <article>
+        <article className="article-home-test">
           <h1>Jsi pravý DOBROdruh?</h1>
           <p>
             Cestování je skvělé, rozširuje naše obzory a pomáhá nám objevovat
@@ -20,42 +21,60 @@ const Home = () => {
             dále. Jak na tom jseš ty? Jsi vzorný DOBROdruh?
           </p>
           <h3>Otestuj se v našem testu a zjisti, co ještě můžeš zlepšit.</h3>
-          <button>Spustit test</button>
+          <Link to="/test/1">
+            <button>Spusti test</button>
+          </Link>
         </article>
       </section>
       <section className="calculator">
         <article className="article-calculator">
-          <div className="text-calculator">
-            <h2>Zjisti a vykompenzuj uhlíkovou stopu své příští cesty</h2>
-            <p>
-              Turizmus je odpovědný za přibližně 8% celosvětových uhlíkových
-              emisí. Zadej místo, odkud cestuješ, cílovou destinaci a způsob
-              dopravy.
-            </p>
-          </div>
-
-          <div className="calculator-input">
-            <input type="text" placeholder="Odkud" />
-            <div id="output1"></div>
-            <input type="text" placeholder="Kam" />
-            <div id="output2"></div>
-            <input type="text" placeholder="Druh dopravy" />
-          </div>
-          <div id="output3"></div>
-          <button>Spočítat</button>
+          <h2>
+            Zjisti a vykompenzuj uhlíkovou stopu
+            <br /> své příští cesty
+          </h2>
+          <p>
+            Turizmus je odpovědný za přibližně 8% celosvětových uhlíkových
+            emisí.
+            <br />
+            Zadej místo, odkud cestuješ, cílovou destinaci a způsob dopravy.
+          </p>
         </article>
+        <form className="calculator-input">
+          <input type="text" placeholder="Odkud" />
+          <br />
+          <input type="text" placeholder="Kam" />
+          <br />
+          <input type="text" placeholder="Druh dopravy" />
+          <br />
+          <button type="submit">Spočítat</button>
+        </form>
       </section>
       <section className="projects">
         <h2>Podpor vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h2>
-        <article>Zasaď strom</article>
-        <article>Zasaď strom</article>
-        <article>Zasaď strom</article>
+        <div className="article-projects">
+          <article className="project1">
+            <h3>Zasaď strom </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              ducimus repellat est delectus distinctio quisquam maxime
+            </p>
+          </article>
+          <article className="project2">
+            <h3>Zasaď strom </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              ducimus repellat est delectus distinctio quisquam maxime
+            </p>
+          </article>
+          <article className="project3">
+            <h3>Zasaď strom </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+              ducimus repellat est delectus distinctio quisquam maxime
+            </p>
+          </article>
+        </div>
       </section>
-      <img className="leaf" src="/assets/img/leaf.png" alt="leaf" />
-      <footer>
-        &copy; Made by traWELLers Júlia and Zuzana with great support of Jindra
-        and the team of Czechitas in 2021
-      </footer>
     </>
   );
 };

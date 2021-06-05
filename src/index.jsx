@@ -49,6 +49,11 @@ const App = () => {
           <Home />
         </Route>
       </Switch>
+      <img className="leaf" src="/assets/img/leaf.png" alt="leaf" />
+      <footer>
+        &copy; Made by traWELLers Júlia and Zuzana with great support of Jindra
+        and the team of Czechitas in 2021
+      </footer>
     </Router>
   );
 };
