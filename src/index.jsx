@@ -12,13 +12,13 @@ const App = () => {
   return (
     <Router>
       <nav>
-        <img src="./assets/img/logo.svg" alt="logo DOBROdruh"></img>
+        <img src="/assets/img/logo.svg" alt="logo DOBROdruh"></img>
         <ul>
           <li>
             <Link to="/">Domov</Link>
           </li>
           <li>
-            <Link to="/test">Test</Link>
+            <Link to="/test/1">Test</Link>
           </li>
           <li>
             <Link to="/calculator">CO2 Kalkulačka</Link>
@@ -33,7 +33,7 @@ const App = () => {
       </nav>
 
       <Switch>
-        <Route path="/test">
+        <Route path="/test/:id?">
           <Test />
         </Route>
         <Route path="/calculator">
