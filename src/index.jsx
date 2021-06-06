@@ -40,6 +40,9 @@ const App = () => {
         <Route path="/test/:id?">
           <Test />
         </Route>
+        <Route path="/calculator/result">
+          <CO2Calculator />
+        </Route>
         <Route path="/calculator">
           <CO2Calculator />
         </Route>

@@ -15,7 +15,7 @@ const calculateCarDiesel = (distance, consumption) => {
   return roundTwo((consumption / 100) * distance * 2.62);
 };
 
-const Calculator = ({ redirect }) => {
+const Calculator = () => {
   const history = useHistory();
   const location = useLocation();
 
@@ -39,11 +39,7 @@ const Calculator = ({ redirect }) => {
   // const isBike = transport === 'bike';
 
   const displayResult = (result) => {
-    if (redirect) {
-      history.push('/calculator', { result });
-    } else {
-      setCalculationResult(result);
-    }
+    history.push('/calculator/result', { result });
   };
 
   const calculateCarResult = () => {
@@ -88,7 +84,11 @@ const Calculator = ({ redirect }) => {
 
   return !calculationResult ? (
     <form onSubmit={handleSubmit} className="calculator-form">
-      <select onChange={(e) => setTransport(e.target.value)} name="transport">
+      <select
+        value={transport}
+        onChange={(e) => setTransport(e.target.value)}
+        name="transport"
+      >
         <option value="car">Auto</option>
         <option value="train">Train</option>
         <option value="plane">Letadlo</option>

@@ -25,6 +25,9 @@ const Result = ({ result }) => {
       <Link to="/projects">
         <button className="btn-result">Vykompenzuj stopu</button>
       </Link>
+      <Link to="/calculator">
+        <button className="btn-result">Spočítat znovu</button>
+      </Link>
     </div>
   );
 };
