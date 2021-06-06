@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Redirect, useHistory, useParams } from 'react-router';
 import Question from './Question';
 import questions from './questions.json';
 import './style.css';
-import Result from './Result';
 
 const parseId = (possibleId) => {
   const id = Number(possibleId);
@@ -44,7 +43,10 @@ const Test = () => {
   const { id } = useParams();
   const history = useHistory();
 
-  const [displayResult, setDisplayResult] = useState(null);
+  const result = localStorage.getItem('result');
+  if (result){
+    return <Redirect to="/test/result" />;
+  }
 
   const validId = parseId(id);
 
@@ -64,7 +66,7 @@ const Test = () => {
       const result = calculateResult(resultValues);
       localStorage.clear();
       localStorage.setItem('result', result);
-      setDisplayResult(result);
+      history.push('/test/result');
     } else {
       history.push(`/test/${validId + 1}`);
     }
@@ -76,16 +78,12 @@ const Test = () => {
 
   return (
     <section className="test">
-      {!displayResult ? (
-        <Question
-          question={question}
-          onNext={handleNext}
-          onBack={handleBack}
-          isFirst={validId === 1}
-        />
-      ) : (
-        <Result result={displayResult} />
-      )}
+      <Question
+        question={question}
+        onNext={handleNext}
+        onBack={handleBack}
+        isFirst={validId === 1}
+      />
     </section>
   );
 };

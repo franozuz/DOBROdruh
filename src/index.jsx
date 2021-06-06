@@ -1,9 +1,10 @@
 import React from 'react';
-import Home from './Home/index';
-import Test from './Test/index';
-import Calculator from './Calculator/index';
-import Tips from './Tips/index';
-import Projects from './Projects/index';
+import Home from './Home';
+import Test from './Test';
+import Calculator from './Calculator';
+import Tips from './Tips';
+import Projects from './Projects';
+import Result from './Test/Result';
 import { render } from 'react-dom';
 import './style.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
@@ -33,6 +34,9 @@ const App = () => {
       </nav>
 
       <Switch>
+        <Route path="/test/result">
+          <Result />
+        </Route>
         <Route path="/test/:id?">
           <Test />
         </Route>

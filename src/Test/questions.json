@@ -72,17 +72,17 @@
     "question": "Na dovolené v Egyptě...",
     "answers": [
       {
-        "id": "3A",
+        "id": "4A",
         "text": "jsem dobrodruh, piju kohoutkovou vodu.",
         "value": 3
       },
       {
-        "id": "3B",
+        "id": "4B",
         "text": "nechci, aby mě stihla faraonova pomsta, kupuji balenou vodu.",
         "value": 1
       },
       {
-        "id": "3C",
+        "id": "4C",
         "text": "přinesu si vlastní láhev a filter a piju kohoutkovou.",
         "value": 3
       }
