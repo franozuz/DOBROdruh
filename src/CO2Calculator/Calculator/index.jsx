@@ -36,7 +36,8 @@ const Calculator = () => {
   const isCar = transport === 'car';
   const isTrain = transport === 'train';
   const isPlane = transport === 'plane';
-  // const isBike = transport === 'bike';
+  const isBike = transport === 'bike';
+  const isByFoot = transport === 'byfoot';
 
   const displayResult = (result) => {
     history.push('/calculator/result', { result });
@@ -69,6 +70,11 @@ const Calculator = () => {
     }
   };
 
+  const calculateNoco2Result = () => {
+    const result = '0';
+    displayResult(result);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (isCar) {
@@ -79,6 +85,9 @@ const Calculator = () => {
     }
     if (isPlane) {
       calculatePlaneResult();
+    }
+    if (isBike || isByFoot) {
+      calculateNoco2Result();
     }
   };
 
@@ -92,8 +101,8 @@ const Calculator = () => {
         <option value="car">Auto</option>
         <option value="train">Vlak</option>
         <option value="plane">Letadlo</option>
-        {/* <option value="bike">Kolo</option>
-        <option value="byfoot">Pěšky</option> */}
+        <option value="bike">Kolo</option>
+        <option value="byfoot">Pěšky</option>
       </select>
 
       <input
