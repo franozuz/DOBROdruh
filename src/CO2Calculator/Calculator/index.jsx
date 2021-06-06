@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Result from '../Result';
 import './style.css';
 
 const roundTwo = (number) => {
@@ -31,7 +32,7 @@ const Calculator = () => {
     }
   };
 
-  return (
+  return !calculationResult ? (
     <form onSubmit={handleSubmit} className="calculator-form">
       <select name="transport">
         <option value="car">Auto</option>
@@ -60,8 +61,9 @@ const Calculator = () => {
       <button className="btn-calculator" type="submit">
         Spočítat
       </button>
-      {calculationResult}
     </form>
+  ) : (
+    <Result result={calculationResult} />
   );
 };
 
