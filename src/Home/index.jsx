@@ -60,7 +60,7 @@ const Home = () => {
           </Link>
         </form>
       </section>
-      <section className="projects">
+      <section className="home-projects">
         <h2>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h2>
         <div className="article-projects">
           <article className="project1">
