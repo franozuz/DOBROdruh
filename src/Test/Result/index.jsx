@@ -7,12 +7,11 @@ const Result = () => {
   const [displayResult, setDisplayResult] = useState(null);
 
   const result = localStorage.getItem('result');
-  if(!result) {
-    return <Redirect to="/test/1" />
+  if (!result) {
+    return <Redirect to="/test/1" />;
   }
 
   useEffect(() => {
-    
     if (result) {
       setDisplayResult(result);
     }
@@ -32,12 +31,17 @@ const Result = () => {
           Tvoje DOBROdružné skóre není moc vysoké. Ale jsi tady a to je dobrý
           začátek. Už jen tím, že se o tuto problematiku zajímáš, dostáváš 10
           plusových bludišťáků. Ješte pár a bude z tebe DOBROdruh! Tak koukni na
-          seznam tipů, jak cestovat udržitelněji a získat nějaké ty body navíc.
+          seznam tipů, jak cestovat udržitelněji a získej příště nějaké ty body
+          navíc.
         </p>
         <div className="result__nav">
-          <button className="result__button" onClick={handleResetTest}>Reštart testu</button>
+          <button className="result__button" onClick={handleResetTest}>
+            Reštart testu
+          </button>
           <Link to="/tips">
-            <button className="result__button">Tipy na udržitelné cestování</button>
+            <button className="result__button">
+              Tipy na udržitelné cestování
+            </button>
           </Link>
           <Link to="/projects">
             <button className="result__button">EKO projekty</button>
