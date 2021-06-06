@@ -23,6 +23,8 @@ const Calculator = ({ redirect }) => {
   const [consumption, setConsumption] = useState(0);
   const [fuel, setFuel] = useState('gas');
   const [transport, setTransport] = useState('car');
+  const [passangers, setPassangers] = useState(1);
+  const [trip, setTrip] = useState('one-way');
 
   const [calculationResult, setCalculationResult] = useState(null);
 
@@ -33,33 +35,41 @@ const Calculator = ({ redirect }) => {
 
   const isCar = transport === 'car';
   const isTrain = transport === 'train';
-  const isBike = transport === 'bike';
+  const isPlane = transport === 'plane';
+  // const isBike = transport === 'bike';
+
+  const displayResult = (result) => {
+    if (redirect) {
+      history.push('/calculator', { result });
+    } else {
+      setCalculationResult(result);
+    }
+  };
 
   const calculateCarResult = () => {
     if (fuel === 'gas') {
       const result = calculateCarFuel(distance, consumption);
-      if (redirect) {
-        history.push('/calculator', { result });
-      } else {
-        setCalculationResult(result);
-      }
+      displayResult(result);
     }
     if (fuel === 'diesel') {
       const result = calculateCarDiesel(distance, consumption);
-      if (redirect) {
-        history.push('/calculator', { result });
-      } else {
-        setCalculationResult(result);
-      }
+      displayResult(result);
     }
   };
 
   const calculateTrainResult = () => {
     const result = roundTwo((distance * 41) / 1000);
-    if (redirect) {
-      history.push('/calculator', { result });
-    } else {
-      setCalculationResult(result);
+    displayResult(result);
+  };
+
+  const calculatePlaneResult = () => {
+    const indexCO2 = 3.16;
+    const result = roundTwo((distance / 100) * 3 * indexCO2 * passangers);
+    if (trip === 'one-way') {
+      displayResult(result);
+    }
+    if (trip === 'round-trip') {
+      displayResult(result * 2);
     }
   };
 
@@ -71,6 +81,9 @@ const Calculator = ({ redirect }) => {
     if (isTrain) {
       calculateTrainResult();
     }
+    if (isPlane) {
+      calculatePlaneResult();
+    }
   };
 
   return !calculationResult ? (
@@ -78,8 +91,8 @@ const Calculator = ({ redirect }) => {
       <select onChange={(e) => setTransport(e.target.value)} name="transport">
         <option value="car">Auto</option>
         <option value="train">Train</option>
-        <option value="bike">Kolo</option>
-        {/* <option value="plane">Letadlo</option>
+        <option value="plane">Letadlo</option>
+        {/* <option value="bike">Kolo</option>
         <option value="byfoot">Pěšky</option> */}
       </select>
 
@@ -88,7 +101,22 @@ const Calculator = ({ redirect }) => {
         type="number"
         min="0"
         placeholder="Vzdálenost (km)"
+        required
       />
+      {isPlane && (
+        <>
+          <input
+            onChange={(e) => setPassangers(Number(e.target.value))}
+            type="number"
+            min="1"
+            placeholder="Počet pasažérů"
+          />
+          <select onChange={(e) => setTrip(e.target.value)} name="trip">
+            <option value="one-way">Jednosměrný let</option>
+            <option value="round-trip">Obousměrný let</option>
+          </select>{' '}
+        </>
+      )}
       {isCar && (
         <>
           <input
@@ -96,6 +124,7 @@ const Calculator = ({ redirect }) => {
             type="number"
             min="0"
             placeholder="Spotřeba (l/100km)"
+            required
           />
           <select onChange={(e) => setFuel(e.target.value)} name="fuel">
             <option value="gas">Benzín</option>
