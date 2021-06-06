@@ -1,0 +1,10 @@
+.co2-calculator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  background-image: url('../assets/img/pattern.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

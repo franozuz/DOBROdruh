@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './Home';
 import Test from './Test';
-import Calculator from './Calculator';
+import CO2Calculator from './CO2Calculator';
 import Tips from './Tips';
 import Projects from './Projects';
 import Result from './Test/Result';
@@ -41,7 +41,7 @@ const App = () => {
           <Test />
         </Route>
         <Route path="/calculator">
-          <Calculator />
+          <CO2Calculator />
         </Route>
         <Route path="/tips">
           <Tips />
