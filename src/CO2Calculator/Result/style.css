@@ -1,0 +1,29 @@
+.calculator-result {
+  align-items: center;
+  background: #f6c60c;
+  width: 650px;
+  height: 650px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.calculator-comparison {
+  text-align: center;
+}
+
+.calculator-comparison > h2 {
+  color: #8948c6;
+}
+.btn-result {
+  background-color: #8948c6;
+  padding: 1.5rem;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 10rem;
+  height: 5rem;
+  font-size: 1.2rem;
+}
