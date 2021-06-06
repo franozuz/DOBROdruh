@@ -13,7 +13,7 @@ const App = () => {
   return (
     <Router>
       <nav>
-        <img src="/assets/img/logo.svg" alt="logo DOBROdruh"></img>
+        <img src="/assets/img/logo_beznazvu.svg" alt="logo DOBROdruh"></img>
         <ul>
           <li>
             <Link to="/">Domov</Link>
