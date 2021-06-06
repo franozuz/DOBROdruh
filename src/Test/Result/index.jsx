@@ -1,17 +1,22 @@
 import React, { useState, useEffect } from 'react';
-import { useHistory, Link } from 'react-router-dom';
+import { useHistory, Link, Redirect } from 'react-router-dom';
 import './style.css';
 
 const Result = () => {
   const history = useHistory();
   const [displayResult, setDisplayResult] = useState(null);
 
+  const result = localStorage.getItem('result');
+  if(!result) {
+    return <Redirect to="/test/1" />
+  }
+
   useEffect(() => {
-    const result = localStorage.getItem('result');
+    
     if (result) {
       setDisplayResult(result);
     }
-  }, []);
+  }, [result]);
 
   const handleResetTest = () => {
     localStorage.clear();
