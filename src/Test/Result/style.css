@@ -1,5 +1,39 @@
 .result {
-  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+  background-image: url('../../assets/img/pattern.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.result__box {
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 2rem;
   border-radius: 10px;
+  max-width: 80%;
+}
+
+.result__nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.result__button {
+  background-color: #8948c6;
+  padding: 1.5rem;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.3s;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.result__button:hover {
+  background-color: #f6c60c;
+  color: black;
 }
