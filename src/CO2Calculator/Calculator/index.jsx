@@ -90,7 +90,7 @@ const Calculator = () => {
         name="transport"
       >
         <option value="car">Auto</option>
-        <option value="train">Train</option>
+        <option value="train">Vlak</option>
         <option value="plane">Letadlo</option>
         {/* <option value="bike">Kolo</option>
         <option value="byfoot">Pěšky</option> */}

@@ -16,7 +16,7 @@
   font-size: 1rem;
   width: 20rem;
   height: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem;  
 }
 
 .btn-calculator {
@@ -29,4 +29,10 @@
   padding: 0;
   background-color: #8948c6;
   color: white;
+  border-radius: 10px;
+}
+
+.btn-calculator:hover {
+  background-color: #f6c60c;
+  color: black;
 }

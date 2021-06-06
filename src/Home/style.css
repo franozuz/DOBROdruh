@@ -5,12 +5,14 @@
   padding: 0 5%;
 }
 
-.home-test {
-  margin-top: 2rem;
+.home-test,
+.calculator {
+  margin-top: 3rem;
 }
 
 .home-test > img {
   max-width: 60%;
+  margin-right: 2rem;
 }
 
 .article-home-test {
@@ -34,6 +36,11 @@
   width: 10rem;
   height: 5rem;
   font-size: 1.2rem;
+}
+
+.btn-test:hover {
+  background-color: #f6c60c;
+  color: black;
 }
 
 /* calculator */
@@ -85,8 +92,12 @@
 .project2,
 .project3 {
   background-color: white;
-  color: #f6c60c;
-  margin: 0 1rem;
+  color: black;
+  margin: 0 0.5rem;
+  border-radius: 20px;
+  padding: 1rem;
+  font-size: 0.8em;
+  width: 30%;
 }
 
 .leaf {
