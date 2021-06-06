@@ -41,7 +41,7 @@ const Home = () => {
           </p>
         </article>
         <div className="calculator-input">
-          <Calculator />
+          <Calculator redirect />
         </div>
       </section>
       <section className="home-projects">

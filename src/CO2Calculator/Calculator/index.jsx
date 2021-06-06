@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useHistory, useLocation } from 'react-router';
 import Result from '../Result';
 import './style.css';
 
@@ -14,30 +15,52 @@ const calculateCarDiesel = (distance, consumption) => {
   return roundTwo((consumption / 100) * distance * 2.62);
 };
 
-const Calculator = () => {
+const Calculator = ({ redirect }) => {
+  const history = useHistory();
+  const location = useLocation();
+
   const [distance, setDistance] = useState(0);
   const [consumption, setConsumption] = useState(0);
   const [fuel, setFuel] = useState('gas');
-  const [calculationResult, setCalculationResult] = useState(null);
   const [transport, setTransport] = useState('car');
+
+  const [calculationResult, setCalculationResult] = useState(null);
+
+  useEffect(() => {
+    const locationResult = location.state?.result;
+    setCalculationResult(locationResult);
+  }, [location.state]);
 
   const isCar = transport === 'car';
   const isTrain = transport === 'train';
+  const isBike = transport === 'bike';
 
   const calculateCarResult = () => {
     if (fuel === 'gas') {
       const result = calculateCarFuel(distance, consumption);
-      setCalculationResult(result);
+      if (redirect) {
+        history.push('/calculator', { result });
+      } else {
+        setCalculationResult(result);
+      }
     }
     if (fuel === 'diesel') {
       const result = calculateCarDiesel(distance, consumption);
-      setCalculationResult(result);
+      if (redirect) {
+        history.push('/calculator', { result });
+      } else {
+        setCalculationResult(result);
+      }
     }
   };
 
   const calculateTrainResult = () => {
     const result = roundTwo((distance * 41) / 1000);
-    setCalculationResult(result);
+    if (redirect) {
+      history.push('/calculator', { result });
+    } else {
+      setCalculationResult(result);
+    }
   };
 
   const handleSubmit = (e) => {
@@ -55,10 +78,11 @@ const Calculator = () => {
       <select onChange={(e) => setTransport(e.target.value)} name="transport">
         <option value="car">Auto</option>
         <option value="train">Train</option>
-        {/* <option value="plane">Letadlo</option>
         <option value="bike">Kolo</option>
+        {/* <option value="plane">Letadlo</option>
         <option value="byfoot">Pěšky</option> */}
       </select>
+
       <input
         onChange={(e) => setDistance(Number(e.target.value))}
         type="number"
