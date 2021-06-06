@@ -14,7 +14,6 @@ const App = () => {
     <Router>
       <nav>
         <img src="/assets/img/logo_DOBROdruh.svg" alt="logo DOBROdruh" />
-        <div className="title">DOBROdruh</div>
         <ul>
           <li>
             <Link to="/">Domov</Link>

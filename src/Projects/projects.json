@@ -28,7 +28,23 @@
     "image": "/assets/img/zachranme-lesy_logo.jpg",
     "alt": "Zachraňme lesy",
     "name": "Zachraňme lesy",
-    "description": "Společně vracíme život zpět tam, kam patří. Do našich lesů. Ať už změnou zákonů, vyhlášek nebo prací.",
+    "description": "Vrací život zpět tam, kam patří. Do našich lesů. Aby byli pestřejší a stabilnější. Ať už změnou zákonů, vyhlášek nebo prací.",
     "link": "https://zachranmelesy.cz/cs"
+  },
+  {
+    "id": 5,
+    "image": "/assets/img/cisty-les_logo.jpg",
+    "alt": "Čistý les",
+    "name": "Čistý les",
+    "description": "Uklízí lesy a přírodu od odpadků a skládek. Seznamují děti i dospělé s tříděním a recyklací odpadů aktuálními tématy z oblasti ochrany životního prostředí a globálními ekologickými problémy.",
+    "link": "https://www.cistyles.cz/index.html"
+  },
+  {
+    "id": 6,
+    "image": "/assets/img/cisty-les_logo.jpg",
+    "alt": "Home for Trees",
+    "name": "Home for Trees",
+    "description": "Ekologická organizace Home for Trees působí jako platforma pro sázení, péči a ochranu stromů a lesů v České republice. Jejich vizí jsou bohaté zdravé lesy plné rozmanitého života.",
+    "link": "https://homefortrees.com/"
   }
 ]
