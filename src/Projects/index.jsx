@@ -8,7 +8,7 @@ const Projects = () => {
     <section className="projects">
       <h1>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h1>
       <div className="projectList">
-        {projects.map((project) => <Project key={project.id} image={project.image} alt={project.alt} name={project.name} description={project.description} />)}
+        {projects.map((project) => <Project key={project.id} image={project.image} alt={project.alt} name={project.name} description={project.description} link={project.link}/>)}
       </div>
     </section>
   );
