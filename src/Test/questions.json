@@ -87,5 +87,26 @@
         "value": 3
       }
     ]
+  },
+  {
+    "id": "5Q",
+    "question": "S jakým zavazadlem cestuješ?",
+    "answers": [
+      {
+        "id": "5A",
+        "text": "Potřebuju hodně věcí, jsem kufrař. 2 až 3 kufry a někdy i více.",
+        "value": 1
+      },
+      {
+        "id": "5B",
+        "text": "Jsem minimalista a cestuji s baťohem na zádech.",
+        "value": 3
+      },
+      {
+        "id": "5C",
+        "text": "S kufrem na kolečkách a příruční batožinou.",
+        "value": 2
+      }
+    ]
   }
 ]
