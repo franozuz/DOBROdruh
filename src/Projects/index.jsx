@@ -5,7 +5,7 @@ import projects from "./projects.json"
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects--section">
       <h1>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h1>
       <div className="projectList">
         {projects.map((project) => <Project key={project.id} image={project.image} alt={project.alt} name={project.name} description={project.description} link={project.link}/>)}
