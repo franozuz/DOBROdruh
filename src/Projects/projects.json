@@ -4,13 +4,31 @@
     "image": "/assets/img/hnuti-duha_logo.jpg",
     "alt": "Hnutí Duha",
     "name": "Hnutí Duha",
-    "description": "Hnutí DUHA prosazuje zdravé prostředí pro život, pestrou přírodu a chytrou ekonomiku. Dokáže rozhýbat politiky a úřady, jedná s firmami a pomáhá domácnostem."
+    "description": "Hnutí DUHA prosazuje zdravé prostředí pro život, pestrou přírodu a chytrou ekonomiku. Dokáže rozhýbat politiky a úřady, jedná s firmami a pomáhá domácnostem.",
+    "link": "https://www.hnutiduha.cz/"
   },
   {
     "id": 2,
     "image": "/assets/img/cmelak_logo.jpg",
     "alt": "Čmelák",
     "name": "Čmelák",
-    "description": "Organizace, která již 25 let trpělivě, krok za krokem,přetváří konkrétní místa v krajině tak, aby na nich dostala prostor příroda. Ne zisk ani soukromé zájmy, ale příroda."
+    "description": "Organizace, která již 25 let trpělivě, krok za krokem, přetváří konkrétní místa v krajině tak, aby na nich dostala prostor příroda. Ne zisk ani soukromé zájmy, ale příroda.",
+    "link": "https://www.cmelak.cz/"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/trash-hero_logo.jpg",
+    "alt": "Trash Hero",
+    "name": "Trash Hero",
+    "description": "Česká neziskovka a parta dobrovolníků, která bere ekologii s úsměvem a do vlastních rukou. Patří ke světovému hnutí Trash Hero, které uklízí na 162 místech v 15 zemích světa.",
+    "link": "https://www.trashhero.cz/"
+  },
+  {
+    "id": 4,
+    "image": "/assets/img/zachranme-lesy_logo.jpg",
+    "alt": "Zachraňme lesy",
+    "name": "Zachraňme lesy",
+    "description": "Společně vracíme život zpět tam, kam patří. Do našich lesů. Ať už změnou zákonů, vyhlášek nebo prací.",
+    "link": "https://zachranmelesy.cz/cs"
   }
 ]
