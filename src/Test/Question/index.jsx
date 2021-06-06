@@ -38,8 +38,10 @@ const Question = (props) => {
             {answer.text}
           </label>
         ))}
-        {!props.isFirst && <button onClick={handleQuestionBack}>Zpět</button>}
+        <div className="test__nav">
+        {!props.isFirst ? <button onClick={handleQuestionBack}>Zpět</button> : <div></div>}
         {props.isLast ? <button type="submit">Vyhodnoť test</button> : <button type="submit">Další</button>}
+        </div>
       </form>
     </div>
   );
