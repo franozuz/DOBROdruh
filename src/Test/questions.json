@@ -108,5 +108,52 @@
         "value": 2
       }
     ]
+  },
+  {
+    "id": "6Q",
+    "question": "Jídlo na cestách",
+    "answers": [
+      {
+        "id": "6A",
+        "text": "Nosím si sebou krabičky s jídlem i s vlastním příborem.",
+        "value": 3
+      },
+      {
+        "id": "6B",
+        "text": "Často si beru jídlo sebou v jednorázovém obalu.",
+        "value": 1
+      },
+      {
+        "id": "6C",
+        "text": "Nejradši si užívám komfort restaurací.",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "7Q",
+    "question": "Co děláš se zbytkama v těch malých lahvičkek šampónu v hotelech?",
+    "answers": [
+      {
+        "id": "7A",
+        "text": "Nic, neřeším. To je věc pokojský",
+        "value": 1
+      },
+      {
+        "id": "7B",
+        "text": "Já si nosím svůj šampon.",
+        "value": 3
+      },
+      {
+        "id": "7C",
+        "text": "Zbytky si beru domů.",
+        "value": 2
+      },
+      {
+        "id": "7D",
+        "text": "Beru všechno domů. I ty neotevřený.",
+        "value": 1
+      }
+    ]
   }
 ]
