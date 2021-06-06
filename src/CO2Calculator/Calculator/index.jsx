@@ -19,9 +19,12 @@ const Calculator = () => {
   const [consumption, setConsumption] = useState(0);
   const [fuel, setFuel] = useState('gas');
   const [calculationResult, setCalculationResult] = useState(null);
+  const [transport, setTransport] = useState('car');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const isCar = transport === 'car';
+  const isTrain = transport === 'train';
+
+  const calculateCarResult = () => {
     if (fuel === 'gas') {
       const result = calculateCarFuel(distance, consumption);
       setCalculationResult(result);
@@ -32,12 +35,27 @@ const Calculator = () => {
     }
   };
 
+  const calculateTrainResult = () => {
+    const result = roundTwo((distance * 41) / 1000);
+    setCalculationResult(result);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (isCar) {
+      calculateCarResult();
+    }
+    if (isTrain) {
+      calculateTrainResult();
+    }
+  };
+
   return !calculationResult ? (
     <form onSubmit={handleSubmit} className="calculator-form">
-      <select name="transport">
+      <select onChange={(e) => setTransport(e.target.value)} name="transport">
         <option value="car">Auto</option>
-        {/* <option value="plane">Letadlo</option>
         <option value="train">Train</option>
+        {/* <option value="plane">Letadlo</option>
         <option value="bike">Kolo</option>
         <option value="byfoot">Pěšky</option> */}
       </select>
@@ -47,16 +65,20 @@ const Calculator = () => {
         min="0"
         placeholder="Vzdálenost (km)"
       />
-      <input
-        onChange={(e) => setConsumption(Number(e.target.value))}
-        type="number"
-        min="0"
-        placeholder="Spotřeba (l/100km)"
-      />
-      <select onChange={(e) => setFuel(e.target.value)} name="fuel">
-        <option value="gas">Benzín</option>
-        <option value="diesel">Diesel</option>
-      </select>
+      {isCar && (
+        <>
+          <input
+            onChange={(e) => setConsumption(Number(e.target.value))}
+            type="number"
+            min="0"
+            placeholder="Spotřeba (l/100km)"
+          />
+          <select onChange={(e) => setFuel(e.target.value)} name="fuel">
+            <option value="gas">Benzín</option>
+            <option value="diesel">Diesel</option>
+          </select>
+        </>
+      )}
 
       <button className="btn-calculator" type="submit">
         Spočítat
