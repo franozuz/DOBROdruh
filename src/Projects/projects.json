@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/img/hnuti-duha_logo.jpg",
+    "alt": "Hnutí Duha",
+    "name": "Hnutí Duha",
+    "description": "Hnutí DUHA prosazuje zdravé prostředí pro život, pestrou přírodu a chytrou ekonomiku. Dokáže rozhýbat politiky a úřady, jedná s firmami a pomáhá domácnostem."
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/cmelak_logo.jpg",
+    "alt": "Čmelák",
+    "name": "Čmelák",
+    "description": "Organizace, která již 25 let trpělivě, krok za krokem,přetváří konkrétní místa v krajině tak, aby na nich dostala prostor příroda. Ne zisk ani soukromé zájmy, ale příroda."
+  }
+]

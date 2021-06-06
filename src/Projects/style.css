@@ -4,9 +4,3 @@
   flex-wrap: wrap;
 }
 
-.project {
-  max-width: 20%;
-  border-style: solid;
-  border-radius: 20px;
-  margin: 1.5rem;
-}
