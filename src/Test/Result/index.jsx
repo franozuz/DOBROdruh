@@ -23,8 +23,10 @@ const Result = () => {
   };
 
   return (
+    displayResult <= 10 ? 
     <section className="result">
       <div className="result__box">
+
         <h1>Jejda, jseš tak trochu ZLOdruh!</h1>
         <h3>Získal si {displayResult} bodů.</h3>
         <p>
@@ -48,7 +50,31 @@ const Result = () => {
           </Link>
         </div>
       </div>
-    </section>
+    </section> :
+    <section className="result">
+    <div className="result__box">
+
+      <h1>Jsi na 75% DOBROdruh!</h1>
+      <h3>Získal si {displayResult} bodů.</h3>
+      <p>
+      Super, jsi na dobré cestě! Je vidět, že ti osud naší planety není lhostejný. Zajímá tě, jak své zelené skóre ještě vylepšit? Připravili jsme pro tebe 10 praktických tipů, které můžeš aplikovat při svý příští cestě.
+      </p>
+      <div className="result__nav">
+        <button className="result__button" onClick={handleResetTest}>
+          Reštart testu
+        </button>
+        <Link to="/tips">
+          <button className="result__button">
+            Tipy na udržitelné cestování
+          </button>
+        </Link>
+        <Link to="/projects">
+          <button className="result__button">EKO projekty</button>
+        </Link>
+      </div>
+    </div>
+  </section>
+
   );
 };
 
