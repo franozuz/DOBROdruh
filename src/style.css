@@ -38,6 +38,12 @@ nav > ul {
   padding: 0;
 }
 
+/* @media (max-width: 1200px) {
+  nav>ul {
+    display: none;
+  }
+  } */
+
 nav > ul a {
   text-decoration: none;
   background-color: #f6c60c;
@@ -60,7 +66,7 @@ nav > ul > li {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3em;
   color: #8948c6;
 }
 
