@@ -27,7 +27,9 @@ const Question = (props) => {
       <form onSubmit={handleQuestionNext}>
         {props.question.answers.map((answer) => (
           <label key={answer.id}>
+            <div className="container">
             <input
+              className="question__input"
               type="radio"
               name="answer"
               value={answer.value}
@@ -35,12 +37,22 @@ const Question = (props) => {
               checked={selectedAnswerId === answer.id}
               required
             />
+            <span className="checkmark"></span>
             {answer.text}
+            </div>
           </label>
         ))}
         <div className="test__nav">
-        {!props.isFirst ? <button onClick={handleQuestionBack}>Zpět</button> : <div></div>}
-        {props.isLast ? <button type="submit">Vyhodnoť test</button> : <button type="submit">Další</button>}
+          {!props.isFirst ? (
+            <button onClick={handleQuestionBack}>Zpět</button>
+          ) : (
+            <div></div>
+          )}
+          {props.isLast ? (
+            <button type="submit">Vyhodnoť test</button>
+          ) : (
+            <button type="submit">Další</button>
+          )}
         </div>
       </form>
     </div>
