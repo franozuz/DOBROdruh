@@ -20,7 +20,7 @@
     "image": "/assets/img/trash-hero_logo.jpg",
     "alt": "Trash Hero",
     "name": "Trash Hero",
-    "description": "Česká neziskovka a parta dobrovolníků, která bere ekologii s úsměvem a do vlastních rukou. Patří ke světovému hnutí Trash Hero, které uklízí na 162 místech v 15 zemích světa.",
+    "description": "Česká neziskovka a parta dobrovolníků, která bere ekologii s úsměvem a do vlastních rukou. Patří ke světovému hnutí Trash Hero, které uklízí na 162 místech v 15 zemích.",
     "link": "https://www.trashhero.cz/"
   },
   {
@@ -36,15 +36,23 @@
     "image": "/assets/img/cisty-les_logo.jpg",
     "alt": "Čistý les",
     "name": "Čistý les",
-    "description": "Uklízí lesy a přírodu od odpadků a skládek. Seznamují děti i dospělé s tříděním a recyklací odpadů aktuálními tématy z oblasti ochrany životního prostředí a globálními ekologickými problémy.",
+    "description": "Uklízí lesy a přírodu od odpadků a skládek. Seznamují děti i dospělé s tříděním a recyklací a aktuálními tématy z oblasti ochrany životního prostředí a globálními ekologickými problémy.",
     "link": "https://www.cistyles.cz/index.html"
   },
   {
     "id": 6,
-    "image": "/assets/img/cisty-les_logo.jpg",
+    "image": "/assets/img/home-for-trees_logo.png",
     "alt": "Home for Trees",
     "name": "Home for Trees",
     "description": "Ekologická organizace Home for Trees působí jako platforma pro sázení, péči a ochranu stromů a lesů v České republice. Jejich vizí jsou bohaté zdravé lesy plné rozmanitého života.",
     "link": "https://homefortrees.com/"
+  },
+  {
+    "id": 7,
+    "image": "/assets/img/keep-it-clean_logo.png",
+    "alt": "Keep it Clean",
+    "name": "Keep it Clean",
+    "description": "Parta nadšenců, kteří sbírají odpadky, kudy chodí. Přitom stíhají dělat hezké fotky a vymýšlet zlepšováky, jako třeba Bouda na špačky nebo Popelníčky KiC.",
+    "link": "http://keepitclean.cz/"
   }
 ]
