@@ -83,6 +83,7 @@ const Test = () => {
         onNext={handleNext}
         onBack={handleBack}
         isFirst={validId === 1}
+        isLast={validId === questions.length}
       />
     </section>
   );

@@ -17,8 +17,6 @@
 }
 
 .article-home-test > h1 {
-  font-size: 3rem;
-  color: #8948c6;
   display: flex;
   flex-direction: column;
 }

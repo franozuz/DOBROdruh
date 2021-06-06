@@ -39,7 +39,7 @@ const Question = (props) => {
           </label>
         ))}
         {!props.isFirst && <button onClick={handleQuestionBack}>Zpět</button>}
-        <button type="submit">Další</button>
+        {props.isLast ? <button type="submit">Vyhodnoť test</button> : <button type="submit">Další</button>}
       </form>
     </div>
   );

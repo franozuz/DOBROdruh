@@ -4,7 +4,7 @@ import './style.css';
 const Projects = () => {
   return (
     <>
-      <h2>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h2>
+      <h1>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h1>
       <div className="projectList">
         <article className="project">
           <img src="/assets/img/hnuti-duha.jpg" alt="Hnuti Duha" />
