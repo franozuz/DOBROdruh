@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import { Link } from 'react-router-dom';
+import Calculator from '../CO2Calculator/Calculator';
 
 const Home = () => {
   return (
@@ -39,26 +40,9 @@ const Home = () => {
             Zadej místo, odkud cestuješ, cílovou destinaci a způsob dopravy.
           </p>
         </article>
-        <form className="calculator-input">
-          <input type="text" placeholder="Odkud" id="destination" />
-          <br />
-          <input type="text" placeholder="Kam" id="destination" />
-          <br />
-          <select name="druh dopravy" id="transport">
-            <option value="plane">Letadlo</option>
-            <option value="car">Auto</option>
-            <option value="train">Train</option>
-            <option value="bike">Kolo</option>
-            <option value="byfoot">Pěšky</option>
-          </select>
-
-          <br />
-          <Link to="/calculator">
-            <button className="btn-calculator" type="submit">
-              Spočítat
-            </button>
-          </Link>
-        </form>
+        <div className="calculator-input">
+          <Calculator />
+        </div>
       </section>
       <section className="home-projects">
         <h2>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h2>
