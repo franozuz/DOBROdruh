@@ -44,7 +44,7 @@ const Test = () => {
   const history = useHistory();
 
   const result = localStorage.getItem('result');
-  if (result){
+  if (result) {
     return <Redirect to="/test/result" />;
   }
 
@@ -73,7 +73,7 @@ const Test = () => {
   };
 
   const handleBack = () => {
-    history.goBack();
+    history.push(`/test/${validId - 1}`);
   };
 
   return (
