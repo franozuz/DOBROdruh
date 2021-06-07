@@ -8,11 +8,14 @@ import Result from './Test/Result';
 import { render } from 'react-dom';
 import './style.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Footer from './components/Footer';
+import Header from './components/Header';
 
 const App = () => {
   return (
     <Router>
-      <nav>
+      <Header />
+      {/* <nav>
         <img src="/assets/img/logo_DOBROdruh.svg" alt="logo DOBROdruh" />
         <ul>
           <li>
@@ -31,7 +34,7 @@ const App = () => {
             <Link to="/projects">EKO projekty</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
 
       <Switch>
         <Route path="/test/result">
@@ -56,10 +59,7 @@ const App = () => {
           <Home />
         </Route>
       </Switch>
-      <footer>
-        &copy; Made by traWELLers Júlia and Zuzana with great support of Jindra
-        and the team of Czechitas in 2021
-      </footer>
+      <Footer />
     </Router>
   );
 };
