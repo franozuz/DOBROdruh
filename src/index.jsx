@@ -7,7 +7,7 @@ import Projects from './Projects';
 import Result from './Test/Result';
 import { render } from 'react-dom';
 import './style.css';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
 

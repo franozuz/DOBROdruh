@@ -1,13 +1,9 @@
-.projects--section {  
-    padding: 0 10%;
+.projects--section {
+  padding: 0 10%;
 }
-
 
 .projectList {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
-
-
