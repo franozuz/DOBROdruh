@@ -35,9 +35,12 @@ const Home = () => {
           </h2>
           <p>
             Turizmus je odpovědný za přibližně 8% celosvětových uhlíkových
-            emisí.
-            <br />
-            Zadej místo, odkud cestuješ, cílovou destinaci a způsob dopravy.
+            emisí. Od letecké přepravy a plavby lodí až po suvenýry a ubytování
+            - to všechno přispívá k uhlíkové stopě cestovního ruchu. V rámci
+            turizmu má největší podíl na emisích právě transport. Ten je
+            odpovědný za 49% globální uhlíkové stopy turizmu. Chceš vědět, jakou
+            stopu na naší planetě zanechá tvoje příští cesta? Spočítej si to
+            pomocí naší kalkulačky.
           </p>
         </article>
         <div className="calculator-input">
@@ -48,21 +51,32 @@ const Home = () => {
         <h2>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h2>
         <div className="article-projects">
           <article className="project1">
-            <h3><a href="https://www.cmelak.cz/">Čmelák </a></h3>
+            <h3>
+              <a href="https://www.cmelak.cz/">Čmelák </a>
+            </h3>
             <p>
-            Organizace, která již 25 let přetváří konkrétní místa v krajině tak, aby na nich dostala prostor příroda. Ne zisk ani soukromé zájmy, ale příroda.
+              Organizace, která již 25 let přetváří konkrétní místa v krajině
+              tak, aby na nich dostala prostor příroda. Ne zisk ani soukromé
+              zájmy, ale příroda.
             </p>
           </article>
           <article className="project2">
-            <h3><a href="https://www.trashhero.cz/">Trash Hero </a></h3>
+            <h3>
+              <a href="https://www.trashhero.cz/">Trash Hero </a>
+            </h3>
             <p>
-            Neziskovka a parta dobrovilníků, která bere ekologii s úsměvem a do vlastních rukou. Světové hnutí Trash Hero uklízí celkem v 15 zemích.
+              Neziskovka a parta dobrovilníků, která bere ekologii s úsměvem a
+              do vlastních rukou. Světové hnutí Trash Hero uklízí celkem v 15
+              zemích.
             </p>
           </article>
           <article className="project3">
-            <h3><a href="http://keepitclean.cz/">Keep it Clean</a></h3>
+            <h3>
+              <a href="http://keepitclean.cz/">Keep it Clean</a>
+            </h3>
             <p>
-            Parta nadšenců, kteří sbírají odpadky, kudy chodí. Přitom stíhají dělat hezké fotky a vymýšlet různé zlepšováky.
+              Parta nadšenců, kteří sbírají odpadky, kudy chodí. Přitom stíhají
+              dělat hezké fotky a vymýšlet různé zlepšováky.
             </p>
           </article>
         </div>
