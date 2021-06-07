@@ -78,6 +78,7 @@ p {
   font-family: 'Roboto Slab', serif;
   line-height: 1.5;
   font-size: 1.2em;
+  max-width: 65ch;
 }
 
 a {
