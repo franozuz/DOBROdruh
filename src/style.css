@@ -80,6 +80,10 @@ p {
   font-size: 1.2em;
 }
 
+a{
+  text-decoration: none;
+}
+
 footer {
   box-sizing: border-box;
   background: #f6c60c;

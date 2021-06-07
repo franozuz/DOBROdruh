@@ -48,19 +48,19 @@ const Home = () => {
         <h2>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h2>
         <div className="article-projects">
           <article className="project1">
-            <h3>Čmelák </h3>
+            <h3><a href="https://www.cmelak.cz/">Čmelák </a></h3>
             <p>
             Organizace, která již 25 let přetváří konkrétní místa v krajině tak, aby na nich dostala prostor příroda. Ne zisk ani soukromé zájmy, ale příroda.
             </p>
           </article>
           <article className="project2">
-            <h3>Trash Hero </h3>
+            <h3><a href="https://www.trashhero.cz/">Trash Hero </a></h3>
             <p>
             Neziskovka a parta dobrovilníků, která bere ekologii s úsměvem a do vlastních rukou. Světové hnutí Trash Hero uklízí celkem v 15 zemích.
             </p>
           </article>
           <article className="project3">
-            <h3>Keep it Clean</h3>
+            <h3><a href="http://keepitclean.cz/">Keep it Clean</a></h3>
             <p>
             Parta nadšenců, kteří sbírají odpadky, kudy chodí. Přitom stíhají dělat hezké fotky a vymýšlet různé zlepšováky.
             </p>
