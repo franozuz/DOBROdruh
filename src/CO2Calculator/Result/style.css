@@ -4,6 +4,7 @@
   width: 650px;
   height: 650px;
   border-radius: 50%;
+  border: dashed #8948c6;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -12,18 +13,35 @@
 
 .calculator-comparison {
   text-align: center;
+  max-width: 60ch;
 }
 
 .calculator-comparison > h2 {
+  font-size: 2rem;
   color: #8948c6;
 }
-.btn-result {
+
+.buttons-result {
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-result1,
+.btn-result2 {
   background-color: #8948c6;
-  padding: 1.5rem;
+  height: 4rem;
+  margin-left: 1rem;
+  padding: 1rem;
   color: white;
   border-radius: 10px;
   cursor: pointer;
-  width: 5rem;
-  height: 5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.btn-result1:hover,
+.btn-result2:hover {
+  background-color: #f6c60c;
+  color: black;
 }
