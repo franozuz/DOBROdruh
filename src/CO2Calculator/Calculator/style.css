@@ -16,7 +16,10 @@
   font-size: 1rem;
   width: 20rem;
   height: 3rem;
-  margin-bottom: 2rem;  
+  margin-bottom: 2rem;
+}
+.calculator-input {
+  display: flex;
 }
 
 .btn-calculator {

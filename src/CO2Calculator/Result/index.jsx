@@ -15,7 +15,7 @@ const Result = ({ result }) => {
           vyprodukovat jedna osoba za rok je:
         </p>
         <p>
-          6000 kg CO<sub>2</sub>e
+          600 kg CO<sub>2</sub>e
         </p>
 
         <p>

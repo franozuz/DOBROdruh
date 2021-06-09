@@ -9,13 +9,7 @@ const Header = () => {
       setMenuOpen(false);
     }
   };
-  const [logoChange, setLogoChange] = useState('nav-closed');
-  const handleOnChange = () => {
-    const img = 'logo_beznazvu.svg';
-    if (logoChange) {
-      setLogoChange(img);
-    }
-  };
+
   return (
     <header>
       <div className="navigation">
