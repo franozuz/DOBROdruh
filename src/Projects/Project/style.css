@@ -13,6 +13,8 @@
 .project > img {
   margin: 1.5rem;
   border-radius: 10px;
+  height: 18rem;
+  width: 18rem;
 }
 
 .project > h2 {
