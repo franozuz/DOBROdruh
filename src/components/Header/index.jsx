@@ -9,6 +9,13 @@ const Header = () => {
       setMenuOpen(false);
     }
   };
+  const [logoChange, setLogoChange] = useState('nav-closed');
+  const handleOnChange = () => {
+    const img = 'logo_beznazvu.svg';
+    if (logoChange) {
+      setLogoChange(img);
+    }
+  };
   return (
     <header>
       <div className="navigation">
@@ -22,7 +29,14 @@ const Header = () => {
           <span></span>
         </button>
         <nav className={menuOpen ? 'nav-closed' : 'nav-open'}>
-          <img src="/assets/img/logo_DOBROdruh.svg" alt="logo DOBROdruh" />
+          <img
+            src={
+              !menuOpen
+                ? '/assets/img/logo_DOBROdruh.svg'
+                : '/assets/img/logo_beznazvu.svg'
+            }
+            alt="logo DOBROdruh"
+          />
           <ul>
             <li>
               <Link onClick={handleClick} to="/" className="nav-link">
