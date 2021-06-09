@@ -14,9 +14,9 @@ const Home = () => {
         <article className="article-home-test">
           <h1>Jsi pravý DOBROdruh?</h1>
           <p>
-            Cestování je skvělé, rozširuje naše obzory a pomáhá nám objevovat
-            nové ůhly pohledu. Cestování může mít ale i temné stránky, a to
-            negativní vliv na životní prostředí. Toitiž, ne každý cestovatel je
+            Cestování je skvělé, rozšiřuje naše obzory a pomáhá nám objevovat
+            nové uhly pohledu. Cestování může mít ale i temné stránky, a to
+            negativní vliv na životní prostředí. Totiž, ne každý cestovatel je
             DOBROdruh. Někteří jsou spíš ZLOdruhové. ZLOdruhové hážou na zem
             plastové láhve, ignorují zákazy vstupu v chráněných oblastech, a tak
             dále. Jak na tom jseš ty? Jsi vzorný DOBROdruh?
@@ -36,11 +36,15 @@ const Home = () => {
           <p>
             Turizmus je odpovědný za přibližně 8% celosvětových uhlíkových
             emisí. Od letecké přepravy a plavby lodí až po suvenýry a ubytování
-            - to všechno přispívá k uhlíkové stopě cestovního ruchu. V rámci
-            turizmu má největší podíl na emisích právě transport. Ten je
-            odpovědný za 49% globální uhlíkové stopy turizmu. Chceš vědět, jakou
-            stopu na naší planetě zanechá tvoje příští cesta? Spočítej si to
-            pomocí naší kalkulačky.
+            - to všechno přispívá k uhlíkové stopě cestovního ruchu. Pro ty z
+            vás, kdo ještě slovní spojení uhlíková stopa (carbon footprint)
+            neslyšel, jde o ukazatel, který udává množství emisí CO2
+            vyprodukovaných během jednotlivých lidských aktivit. V rámci turizmu
+            má největší podíl na emisích právě transport. Ten je odpovědný za
+            49% globální uhlíkové stopy turizmu. Chceš vědět, jakou stopu na
+            naší planetě zanechá tvoje příští cesta? Spočítej si to pomocí naší
+            kalkulačky volba dopravního prostředku také definuje množství
+            vyprodukovaného CO2.
           </p>
         </article>
         <div className="calculator-input">

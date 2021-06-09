@@ -4,9 +4,11 @@ import './style.css';
 
 const CO2Calculator = () => {
   return (
-    <section className="co2-calculator">
-      <Calculator />
-    </section>
+    <>
+      <section className="co2-calculator">
+        <Calculator />
+      </section>
+    </>
   );
 };
 
