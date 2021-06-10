@@ -104,11 +104,9 @@ a {
 
 .hamburger {
   display: flex;
-  position: fixed;
   justify-content: space-evenly;
   align-items: flex-end;
   flex-direction: column;
-  position: absolute;
   height: 4rem;
   top: 7px;
   bottom: 10px;

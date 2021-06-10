@@ -103,23 +103,24 @@
 }
 
 .leaf {
-  width: 600px;
+  max-width: 600px;
   align-self: flex-end;
   margin-top: -15rem;
 }
 
 @media (max-width: 1100px) {
-  .home-test, .calculator {
+  .home-test,
+  .calculator {
     flex-wrap: wrap;
   }
-  .home-test>img {
+  .home-test > img {
     width: 100%;
     align-self: center;
   }
-  .article-home-test{
+  .article-home-test {
     align-self: center;
   }
-  .article-home-test>h3 {
-    text-align:center;
+  .article-home-test > h3 {
+    text-align: center;
   }
 }

@@ -3,6 +3,7 @@
   justify-content: flex-start;
 }
 .logo-dobrodruh {
+  max-width: 100%;
   width: 25rem;
   height: auto;
   padding: 0 0 0 0;
