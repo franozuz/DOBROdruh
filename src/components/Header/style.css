@@ -109,11 +109,12 @@ a {
   align-items: flex-end;
   flex-direction: column;
   position: absolute;
-  height: 5rem;
-  top: 20px;
+  height: 4rem;
+  top: 7px;
   bottom: 10px;
   border: none;
-  background-color: #f6c60c;
+  /* background-color: #f6c60c; */
+  background-color: white;
   border-radius: 10px;
   cursor: pointer;
   box-shadow: none;
@@ -126,7 +127,7 @@ a {
   height: 0.5rem;
   background-color: #8948c6;
   border-radius: 10px;
-  transition: all 0.3s linear;
+  transition: all 0s linear;
   position: relative;
   transform-origin: 4px 0px;
 }
@@ -149,8 +150,8 @@ a {
 
 .hamburger--open {
   position: fixed;
-  width: 5rem;
-  height: 5rem;
+  width: 4rem;
+  height: 4rem;
   padding-bottom: 1rem;
   margin-right: 1rem;
 }
@@ -163,13 +164,13 @@ a {
 .hamburger--open span:nth-child(1) {
   transform: rotate(45deg);
   opacity: 10;
-  transform-origin: -13px 10px;
+  transform-origin: -10px 10px;
 }
 
 .hamburger--open span:nth-child(3) {
   transform: rotate(-50deg);
   opacity: 10;
-  transform-origin: 12px 9px;
+  transform-origin: 18px 9px;
 }
 
 @media screen and (min-width: 768px) {
