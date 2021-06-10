@@ -123,4 +123,10 @@
   .article-home-test > h3 {
     text-align: center;
   }
+  .home-projects {
+    display: none;
+  }
+  .calculator-input {
+    margin-bottom: 9rem;
+  }
 }
