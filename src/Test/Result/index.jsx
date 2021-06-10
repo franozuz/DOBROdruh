@@ -22,7 +22,7 @@ const Result = () => {
     history.push('/test/1');
   };
 
-  return displayResult <= 10 ? (
+  return displayResult <= 12 ? (
     <section className="result">
       <div className="result__box">
         <h1>Jejda, jseš tak trochu ZLOdruh!</h1>
@@ -57,7 +57,7 @@ const Result = () => {
         <p>
           Super, jsi na dobré cestě! Je vidět, že ti osud naší planety není
           lhostejný. Zajímá tě, jak své zelené skóre ještě vylepšit? Připravili
-          jsme pro tebe 10 praktických tipů, které můžeš aplikovat při svý
+          jsme pro tebe několik praktických tipů, které můžeš aplikovat při svý
           příští cestě.
         </p>
         <div className="result__nav">
