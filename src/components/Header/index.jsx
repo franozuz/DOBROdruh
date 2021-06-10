@@ -26,14 +26,6 @@ const Header = () => {
             <span></span>
           </button>
           <nav className={menuOpen ? 'nav-closed' : 'nav-open'}>
-            {/* <img
-            src={
-              !menuOpen
-                ? '/assets/img/logo_beznazvu.svg'
-                : '/assets/img/logo_DOBROdruh.svg'
-            }
-            alt="logo DOBROdruh"
-          /> */}
             <ul>
               <li>
                 <Link onClick={handleClick} to="/" className="nav-link">
