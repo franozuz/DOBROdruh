@@ -173,7 +173,7 @@ a {
   transform-origin: 18px 9px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .navigation {
     display: flex;
     justify-content: flex-end;
