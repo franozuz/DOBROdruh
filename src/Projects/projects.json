@@ -54,5 +54,13 @@
     "name": "Keep it Clean",
     "description": "Parta nadšenců, kteří sbírají odpadky, kudy chodí. Přitom stíhají dělat hezké fotky a vymýšlet zlepšováky, jako třeba Bouda na špačky nebo Popelníčky KiC.",
     "link": "http://keepitclean.cz/"
+  },
+  {
+    "id": 8,
+    "image": "/assets/img/snizujeme-co2_logo.jpg",
+    "alt": "Snižujeme CO2",
+    "name": "Snižujeme CO2",
+    "description": "Jestli chcete vykompenzovat uhlíkovou stopu své firmy, můžete se obrátit právě na českou organizaci CI2, která vám pomůže vypracovat lokální řešení.",
+    "link": "https://snizujemeco2.cz/cs"
   }
 ]
