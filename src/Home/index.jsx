@@ -27,7 +27,7 @@ const Home = () => {
           </Link>
         </article>
       </section>
-      <section className="calculator">
+      <section className="home-calculator">
         <article className="article-calculator">
           <h2>
             Zjisti a vykompenzuj uhlíkovou stopu
