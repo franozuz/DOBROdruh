@@ -65,6 +65,7 @@
 
 .article-projects {
   display: flex;
+  justify-content: center;
 }
 
 .home-projects > h2 {

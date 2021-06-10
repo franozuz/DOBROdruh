@@ -15,13 +15,13 @@ const Home = () => {
           <h1>Jsi pravý DOBROdruh?</h1>
           <p>
             Cestování je skvělé, rozšiřuje naše obzory a pomáhá nám objevovat
-            nové uhly pohledu. Cestování může mít ale i temné stránky, a to
+            nové úhly pohledu. Cestování může mít ale i temné stránky, a to
             negativní vliv na životní prostředí. Totiž, ne každý cestovatel je
             DOBROdruh. Někteří jsou spíš ZLOdruhové. ZLOdruhové hážou na zem
             plastové láhve, ignorují zákazy vstupu v chráněných oblastech, a tak
-            dále. Jak na tom jseš ty? Jsi vzorný DOBROdruh?
+            dále. Jak jsi na tom ty? Jsi vzorný DOBROdruh?
           </p>
-          <h3>Otestuj se v našem testu a zjisti, co ještě můžeš zlepšit.</h3>
+          <h3>Otestuj se a zjisti, co ještě můžeš zlepšit.</h3>
           <Link to="/test/1">
             <button className="btn-test">Spusti test</button>
           </Link>
@@ -69,7 +69,7 @@ const Home = () => {
               <a href="https://www.trashhero.cz/">Trash Hero </a>
             </h3>
             <p>
-              Neziskovka a parta dobrovilníků, která bere ekologii s úsměvem a
+              Neziskovka a parta dobrovolníků, která bere ekologii s úsměvem a
               do vlastních rukou. Světové hnutí Trash Hero uklízí celkem v 15
               zemích.
             </p>
