@@ -37,3 +37,16 @@
   background-color: #f6c60c;
   color: black;
 }
+
+@media (max-width: 680px) {
+  .result__nav {
+    flex-direction: column;
+   
+  
+  }
+  .result__button {
+    width: 75%;
+    
+  }
+  
+}
