@@ -1,3 +1,12 @@
+.topbar-container {
+  display: flex;
+  max-width: 98%;
+  padding: 0 0 1rem 0;
+  min-height: 4rem;
+  max-height: 5rem;
+  justify-content: space-between;
+}
+
 .navigation {
   display: flex;
   flex-direction: column;
