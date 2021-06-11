@@ -6,12 +6,12 @@ import Calculator from '../CO2Calculator/Calculator';
 const Home = () => {
   return (
     <>
-      <section className="home-test">
+      <section className="home__test">
         <img
           src="/assets/img/Illustration.svg"
           alt="illustration woman and man trawellers"
         />
-        <article className="article-home-test">
+        <article className="home__article--test">
           <h1>Jsi pravý DOBROdruh?</h1>
           <p>
             Cestování je skvělé, rozšiřuje naše obzory a pomáhá nám objevovat
@@ -27,7 +27,7 @@ const Home = () => {
           </Link>
         </article>
       </section>
-      <section className="home-calculator">
+      <section className="home__calculator">
         <article className="article-calculator">
           <h2>
             Zjisti a vykompenzuj uhlíkovou stopu
@@ -38,20 +38,19 @@ const Home = () => {
             emisí. Od letecké přepravy a plavby lodí až po suvenýry a ubytování
             - to všechno přispívá k uhlíkové stopě cestovního ruchu. Pro ty z
             vás, kdo ještě slovní spojení uhlíková stopa (carbon footprint)
-            neslyšel, jde o ukazatel, který udává množství emisí CO2
+            neslyšeli, jde o ukazatel, který udává množství emisí CO2
             vyprodukovaných během jednotlivých lidských aktivit. V rámci turizmu
             má největší podíl na emisích právě transport. Ten je odpovědný za
             49% globální uhlíkové stopy turizmu. Chceš vědět, jakou stopu na
             naší planetě zanechá tvoje příští cesta? Spočítej si to pomocí naší
-            kalkulačky volba dopravního prostředku také definuje množství
-            vyprodukovaného CO2.
+            kalkulačky.
           </p>
         </article>
         <div className="calculator-input">
           <Calculator />
         </div>
       </section>
-      <section className="home-projects">
+      <section className="home__projects">
         <h2>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h2>
         <div className="article-projects">
           <article className="project1">
