@@ -131,3 +131,9 @@
     margin-bottom: 10rem;
   }
 }
+
+@media (max-width: 600px) {
+  .leaf{
+    max-width: 75%;
+  }
+}

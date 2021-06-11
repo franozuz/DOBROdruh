@@ -54,13 +54,14 @@
 @media (max-width: 400px){
   .calculator-form {
     background: #f6c60c;
-    width: 100%;
+    width: 110%;
     height: 600px;
     border-radius: 20px;
+    
   }
   .calculator-form > input,
   .calculator-form > select,
   .btn-calculator {
-    width: 12rem;
+    width: 17rem;
   }
 }
