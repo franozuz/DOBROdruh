@@ -18,8 +18,8 @@ const Home = () => {
             uhly pohledu. Temnou stránkou ale může být negativní vliv na životní
             prostředí. A ne každý cestovatel je DOBROdruh. Někteří jsou spíš
             ZLOdruhové. ZLOdruhové hážou na zem plastové láhve, ignorují zákazy
-            vstupu v chráněných oblastech, a tak dále. Jak jsi na tom ty? Jsi
-            vzorný DOBROdruh?
+            vstupu v chráněných oblastech, a tak dále. <br />
+            Jak jsi na tom ty? Jsi vzorný DOBROdruh?
           </p>
           <h3>Otestuj se a zjisti, co ještě můžeš zlepšit.</h3>
           <Link to="/test/1">

@@ -45,3 +45,22 @@
   background-color: #f6c60c;
   color: black;
 }
+
+@media (max-width: 400px) {
+  .calculator-result {
+    background: #f6c60c;
+    max-width: 90%;
+    height: 600px;
+    border-radius: 20px;
+  }
+
+  .buttons-result {
+    display: flex;
+  }
+
+  .btn-result1,
+  .btn-result2 {
+    width: 8rem;
+    margin-left: 0;
+  }
+}
