@@ -5,12 +5,12 @@
     "answers": [
       {
         "id": "1A",
-        "text": "vyhodím láhev s vodou do koše na to určeného.",
+        "text": "vyhodím láhev s vodou do určeného koše.",
         "value": 1
       },
       {
         "id": "1B",
-        "text": "neberu si žádnou vodu na letište.",
+        "text": "neberu žádnou vodu na letište.",
         "value": 2
       },
       {
@@ -31,7 +31,7 @@
     "answers": [
       {
         "id": "2A",
-        "text": "si ručníky nechám měnit jen když je to opravdu potřeba.",
+        "text": "ručníky si nechám měnit jen když je to opravdu potřeba.",
         "value": 2
       },
       {
@@ -52,7 +52,7 @@
     "answers": [
       {
         "id": "3A",
-        "text": "vždy sbírám odpadky po druhých lidech, když je vidím na zemi.",
+        "text": "vždy sbírám odpadky po druhých lidech.",
         "value": 3
       },
       {
@@ -62,7 +62,7 @@
       },
       {
         "id": "3C",
-        "text": "lidi si maj svý odpadky zvedat sami, proč bych to měl/a dělat já?",
+        "text": "lidi si mají své odpadky zvedat sami, proč bych to měl/a dělat já?",
         "value": 1
       }
     ]
@@ -83,7 +83,7 @@
       },
       {
         "id": "4C",
-        "text": "přinesu si vlastní láhev a filter a piju kohoutkovou.",
+        "text": "přinesu si vlastní láhev a filter a piji vodu kohoutkovou.",
         "value": 3
       }
     ]
@@ -94,7 +94,7 @@
     "answers": [
       {
         "id": "5A",
-        "text": "Potřebuju hodně věcí, jsem kufrař. 2 až 3 kufry a někdy i více.",
+        "text": "Potřebuji hodně věcí, jsem kufrař. Mívám 2 až 3 kufry a někdy i více.",
         "value": 1
       },
       {
@@ -136,7 +136,7 @@
     "answers": [
       {
         "id": "7A",
-        "text": "Nic, neřeším. To je věc pokojský",
+        "text": "Nic, neřeším. To je věc pokojské",
         "value": 1
       },
       {
@@ -151,7 +151,7 @@
       },
       {
         "id": "7D",
-        "text": "Beru všechno domů. I ty neotevřený.",
+        "text": "Beru vše domů. I ty neotevřené.",
         "value": 1
       }
     ]

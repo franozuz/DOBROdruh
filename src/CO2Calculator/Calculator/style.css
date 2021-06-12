@@ -8,6 +8,7 @@
   justify-content: center;
   flex-direction: column;
   flex-shrink: 0;
+  border: dashed #8948c6;
 }
 
 .calculator-form > input,

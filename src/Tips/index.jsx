@@ -29,10 +29,10 @@ const Tips = () => {
             <Link to="/Projects">tady.</Link>
             <br />
             <br />
-            Pamatujete na časy, kdy jste si před cestou vytlačili itinerár, mapu
-            i tipy na restaurace? Někteří to tak dělají dodnes. Nahrajte si
-            všechno do mobilu. Letenku, jízdenky, pojištění i mapy tak můžete
-            mít stále po ruce.
+            Pamatujete na časy, kdy jste si před cestou vytiskli itinerář, mapu
+            i tipy na restaurace? Někteří to tak dělají dodnes. Nahrajte si vše
+            do mobilu. Letenku, jízdenky, pojištění i mapy tak můžete mít stále
+            po ruce.
           </p>
         </div>
         <img src="/assets/img/planet.svg" alt="planet" />
@@ -52,10 +52,9 @@ const Tips = () => {
             vybranou českou neziskovku.
             <br />
             <br />
-            Kartáček na zuby by určitě nikdo sdílet nechtěl, ale půjčování si
-            mezi rodinou či blízkými cestovateli jednoho většího balení
-            repelentu, krému, zubní pasty na škodu není. Ušetříte tím místo i
-            dále nepoužitelné obaly.
+            Kartáček na zuby by určitě nikdo sdílet nechtěl, ale půjčování
+            repelentu, krému, zubní pasty(mezi rodinou nebo blízcími cestovali)
+            na škodu není. Ušetříte tím místo i dále nepoužitelné obaly.
           </p>
         </div>
 
@@ -89,15 +88,15 @@ const Tips = () => {
         <div className="tips__article">
           <h2>V HOTELOVÉM POKOJI</h2>
           <p>
-            Užívat si každý den vanu a nonstop puštěnou klimatizaci, když
-            nemusíte platit účty za vodu ani elektřinu je opravdu lákavé. Zkuste
+            Je opravdu lákavé užívat si každý den vanu a nonstop puštěnou
+            klimatizaci, když nemusíte platit účty za vodu ani elektřinu. Zkuste
             se v hotelu chovat jako doma. Zhasínat světla a vypínat klimatizaci,
             když odcházíte. Místo koupele se sprchujte, nebo se koupejte ve
             dvou. &#128521; K napuštění vany je potřeba kolem 200 litrů vody,
             při sprchování minete v průměru 40 litrů.
             <br />
             <br />
-            Pokud vás tato téma zaujala a chcete udělat ještě víc, můžete se
+            Pokud vás tato téma zaujala a chcete udělat ještě více, můžete se
             vzdát uklízení pokoje a výměny ručníků každý den. Když dáte na dveře
             ceduli „Nerušit“, pokojská nemine elektřinu na vysávání, chemické
             prostředky na čištění a ani vodu na praní ručníků.
@@ -126,7 +125,7 @@ const Tips = () => {
           <p>
             Zkuste vždy kupovat lokální potraviny a výrobky. Nejen, že tím
             podpoříte danou oblast, ale i ušetříte velkou uhlíkovou stopu, která
-            vzniká při dovozu tovaru ze zahraničí. Aplikace
+            vzniká při dovozu výrobků ze zahraničí. Aplikace
             <a href="https://www.happycow.net/"> Happy Cow</a> pomůže především
             těm z vás, kdo jste se rozhodli stravovat rostlinně. Filtruje nejen
             restaurace, ale i obchody nebo třeba tržiště. Navíc obsahuje i
@@ -136,8 +135,11 @@ const Tips = () => {
             Cestujte jen s etickými tour společnostmi. Pokud během pobytu v
             zahraničí chcete vyrazit na výlet, volte některou místní cestovní
             společnost. Ideální je vybírat menší společnosti s menším dopadem na
-            přírodu. Pokud je členem <a href="https://ecotourism.org/">International Ecotourism Society</a>, chová
-            se zodpovědně a udržitelně.
+            přírodu. Pokud je členem{' '}
+            <a href="https://ecotourism.org/">
+              International Ecotourism Society
+            </a>
+            , chová se zodpovědně a udržitelně.
           </p>
         </div>
         <div className="tips__article">
@@ -149,8 +151,12 @@ const Tips = () => {
             lahvičku jednou otevřete, tak si ji pak vezměte s sebou domů. Můžete
             ji využít celou, správně vytřídit nebo ji znovu použít, když budete
             potřebovat cestovní balení. Pozor, velké balení, které jsou
-            zamýšleny pro víc hostů, neberte.<br/>
-            <br />A na závěr jeden tip na správnou recyklaci. Každá krajina má odlišný systém třídění a recyklace a je fajn se o tom informovat před cestou. Vychytané tipy na správné třídění v Česku najdete na <a href="https://www.samosebou.cz/">Samosebou.</a>
+            zamýšleny pro víc hostů, neberte.
+            <br />
+            <br />A na závěr jeden tip na správnou recyklaci. Každá krajina má
+            odlišný systém třídění a recyklace je fajn se o tom informovat před
+            cestou. Vychytané tipy na správné třídění v Česku naleznete na{' '}
+            <a href="https://www.samosebou.cz/">Samosebou.</a>
           </p>
         </div>
       </div>

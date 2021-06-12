@@ -14,12 +14,12 @@ const Home = () => {
         <article className="article-home-test">
           <h1>Jsi pravý DOBROdruh?</h1>
           <p>
-            Cestování je skvělé, rozšiřuje naše obzory a pomáhá nám objevovat
-            nové uhly pohledu. Cestování může mít ale i temné stránky, a to
-            negativní vliv na životní prostředí. Totiž, ne každý cestovatel je
-            DOBROdruh. Někteří jsou spíš ZLOdruhové. ZLOdruhové hážou na zem
-            plastové láhve, ignorují zákazy vstupu v chráněných oblastech, a tak
-            dále. Jak na tom jseš ty? Jsi vzorný DOBROdruh?
+            Cestování je skvělé, rozšiřuje naše obzory a pomáhá objevovat nové
+            uhly pohledu. Temnou stránkou ale může být negativní vliv na životní
+            prostředí. A ne každý cestovatel je DOBROdruh. Někteří jsou spíš
+            ZLOdruhové. ZLOdruhové hážou na zem plastové láhve, ignorují zákazy
+            vstupu v chráněných oblastech, a tak dále. Jak jsi na tom ty? Jsi
+            vzorný DOBROdruh?
           </p>
           <h3>Otestuj se v našem testu a zjisti, co ještě můžeš zlepšit.</h3>
           <Link to="/test/1">
@@ -34,17 +34,16 @@ const Home = () => {
             <br /> své příští cesty
           </h2>
           <p>
-            Turizmus je odpovědný za přibližně 8% celosvětových uhlíkových
+            Turismus je odpovědný za přibližně 8% celosvětových uhlíkových
             emisí. Od letecké přepravy a plavby lodí až po suvenýry a ubytování
-            - to všechno přispívá k uhlíkové stopě cestovního ruchu. Pro ty z
-            vás, kdo ještě slovní spojení uhlíková stopa (carbon footprint)
-            neslyšel, jde o ukazatel, který udává množství emisí CO2
-            vyprodukovaných během jednotlivých lidských aktivit. V rámci turizmu
-            má největší podíl na emisích právě transport. Ten je odpovědný za
-            49% globální uhlíkové stopy turizmu. Chceš vědět, jakou stopu na
-            naší planetě zanechá tvoje příští cesta? Spočítej si to pomocí naší
-            kalkulačky volba dopravního prostředku také definuje množství
-            vyprodukovaného CO2.
+            - to všechno přispívá k uhlíkové stopě cestovního ruchu.Ještě jste
+            neslyšeli slovní spojení uhlíková stopa (carbon footprint)?Jde o
+            ukazatel, který udává množství emisí CO2 vyprodukovaných během
+            jednotlivých lidských aktivit. V rámci turismu má největší podíl na
+            emisích právě transport. Ten je odpovědný za 49% globální uhlíkové
+            stopy turizmu. Chceš vědět, jakou stopu na naší planetě zanechá
+            tvoje příští cesta? Spočítej si to pomocí naší kalkulačky volba
+            dopravního prostředku také definuje množství vyprodukovaného CO2.
           </p>
         </article>
         <div className="calculator-input">
