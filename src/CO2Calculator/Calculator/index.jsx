@@ -93,7 +93,11 @@ const Calculator = () => {
 
   return !calculationResult ? (
     <form onSubmit={handleSubmit} className="calculator-form">
-      <h3>CO2 Kalkulačka</h3>
+      <h3>
+        CO2 Kalkulačka
+        <br />
+        <br />
+      </h3>
       <select
         value={transport}
         onChange={(e) => setTransport(e.target.value)}
