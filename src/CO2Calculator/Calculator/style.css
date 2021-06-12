@@ -40,3 +40,29 @@
   background-color: #f6c60c;
   color: black;
 }
+
+
+@media (max-width: 1100px) {
+  .calculator-input {
+    margin-left: 0;
+    
+  }
+  .home__calculator {
+    justify-content: center;
+  }  
+ }
+
+@media (max-width: 400px){
+  .calculator-form {
+    background: #f6c60c;
+    width: 110%;
+    height: 600px;
+    border-radius: 20px;
+    
+  }
+  .calculator-form > input,
+  .calculator-form > select,
+  .btn-calculator {
+    width: 17rem;
+  }
+}

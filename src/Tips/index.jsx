@@ -12,8 +12,8 @@ const Tips = () => {
           <p>
             {' '}
             Je jasné, že když se potřebujete dostat rychle do Kanady, musíte
-            letět. Když ale cestujete po Evropě, skuste volit ekologičtější
-            způsob dopravy - vlaky, sdílená auta, kolo. Bude to sice trvat dýl,
+            letět. Když ale cestujete po Evropě, zkuste volit ekologičtější
+            způsob dopravy - vlaky, sdílená auta, kolo. Bude to sice trvat déle,
             ale při cestování platí, že cesta je cíl. &#128521; Pokud opravdu
             musíte letět, zvolte raději let bez přestupu. Je to právě start a
             přistání, které produkují nejvíc CO2. <br />
@@ -41,10 +41,10 @@ const Tips = () => {
           <h2>BALENÍ KUFRU</h2>
           <p>
             Cestujte na lehko. Není to moc překvapivé, ale čím víc letadlo váží,
-            tím víc emisí vyprodukuje. Takže berte jen příruční batožinu a
+            tím víc emisí vyprodukuje. Takže berte jen příruční zavazadlo a
             poděkuje vám nejen naše planeta, ale i vaše peněženka. <br />
             <br />
-            Přibalte si sebou i jednu plátěnou tašku. Přijde vám vhod při
+            Přibalte si s sebou i jednu plátěnou tašku. Přijde vám vhod při
             nákupech, na trhu nebo když půjdete na pláž. Na nákup potřebných
             věcí na cestování využijte e-shop{' '}
             <a href="https://www.zerowejst.cz/">Zero Wejst</a>. Do virtuálního
@@ -93,13 +93,13 @@ const Tips = () => {
             se v hotelu chovat jako doma. Zhasínat světla a vypínat klimatizaci,
             když odcházíte. Místo koupele se sprchujte, nebo se koupejte ve
             dvou. &#128521; K napuštění vany je potřeba kolem 200 litrů vody,
-            při sprchování minete v průměru 40 litrů.
+            při sprchování vyšploucháte v průměru jen 40 litrů.
             <br />
             <br />
             Pokud vás tato téma zaujala a chcete udělat ještě více, můžete se
             vzdát uklízení pokoje a výměny ručníků každý den. Když dáte na dveře
-            ceduli „Nerušit“, pokojská nemine elektřinu na vysávání, chemické
-            prostředky na čištění a ani vodu na praní ručníků.
+            ceduli „Nerušit“, pokojská nespotřebuje elektřinu na vysávání,
+            chemické prostředky na čištění a ani vodu na praní ručníků.
           </p>
         </div>
 

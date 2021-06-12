@@ -6,12 +6,12 @@ import Calculator from '../CO2Calculator/Calculator';
 const Home = () => {
   return (
     <>
-      <section className="home-test">
+      <section className="home__test">
         <img
           src="/assets/img/Illustration.svg"
           alt="illustration woman and man trawellers"
         />
-        <article className="article-home-test">
+        <article className="home__article--test">
           <h1>Jsi pravý DOBROdruh?</h1>
           <p>
             Cestování je skvělé, rozšiřuje naše obzory a pomáhá objevovat nové
@@ -21,13 +21,13 @@ const Home = () => {
             vstupu v chráněných oblastech, a tak dále. Jak jsi na tom ty? Jsi
             vzorný DOBROdruh?
           </p>
-          <h3>Otestuj se v našem testu a zjisti, co ještě můžeš zlepšit.</h3>
+          <h3>Otestuj se a zjisti, co ještě můžeš zlepšit.</h3>
           <Link to="/test/1">
             <button className="btn-test">Spusti test</button>
           </Link>
         </article>
       </section>
-      <section className="calculator">
+      <section className="home__calculator">
         <article className="article-calculator">
           <h2>
             Zjisti a vykompenzuj uhlíkovou stopu
@@ -50,7 +50,7 @@ const Home = () => {
           <Calculator />
         </div>
       </section>
-      <section className="home-projects">
+      <section className="home__projects">
         <h2>Podpoř vybraný projekt a zneutralizuj svou uhlíkovou stopu!</h2>
         <div className="article-projects">
           <article className="project1">
@@ -68,7 +68,7 @@ const Home = () => {
               <a href="https://www.trashhero.cz/">Trash Hero </a>
             </h3>
             <p>
-              Neziskovka a parta dobrovilníků, která bere ekologii s úsměvem a
+              Neziskovka a parta dobrovolníků, která bere ekologii s úsměvem a
               do vlastních rukou. Světové hnutí Trash Hero uklízí celkem v 15
               zemích.
             </p>
