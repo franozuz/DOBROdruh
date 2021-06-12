@@ -111,7 +111,6 @@ a {
   top: 7px;
   bottom: 10px;
   border: none;
-  /* background-color: #f6c60c; */
   background-color: transparent;
   border-radius: 10px;
   cursor: pointer;
@@ -153,6 +152,7 @@ a {
   padding-bottom: 1rem;
   margin-right: 1rem;
 }
+
 .hamburger--open span:nth-child(2) {
   opacity: 0;
   transform: rotate(-45deg);

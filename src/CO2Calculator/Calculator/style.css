@@ -60,6 +60,6 @@
   .calculator-form > input,
   .calculator-form > select,
   .btn-calculator {
-    width: 17rem;
+    max-width: 17rem;
   }
 }
