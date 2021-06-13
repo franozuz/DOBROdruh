@@ -53,13 +53,13 @@
 @media (max-width: 650px) {
   .calculator-form {
     background: #f6c60c;
-    max-width: 85%;
+    max-width: 90%;
     height: 600px;
     border-radius: 20px;
   }
   .calculator-form > input,
   .calculator-form > select,
   .btn-calculator {
-    max-width: 50%;
+    max-width: 70%;
   }
 }

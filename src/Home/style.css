@@ -140,6 +140,6 @@
 
 @media (max-width: 650px) {
   .home__calculator > .calculator-input {
-    max-width: 80%;
+    max-width: 85%;
   }
 }
