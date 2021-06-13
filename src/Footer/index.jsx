@@ -4,8 +4,8 @@ import './style.css';
 const Footer = () => {
   return (
     <footer>
-      &copy; Made by traWELLers Júlia and Zuzana with support of Jindra and the
-      team of Czechitas in 2021
+      &copy; Made by traWELLers Júlia &amp; Zuzana with support of Jindra &amp;
+      Czechitas in 2021. Illustrations made by D.Navarro Bravo
     </footer>
   );
 };
