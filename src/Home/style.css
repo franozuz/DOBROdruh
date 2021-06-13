@@ -87,6 +87,7 @@
   height: 800px;
   border-radius: 50%;
   justify-content: center;
+  border: dashed #f6c60c;
 }
 
 .project1,
