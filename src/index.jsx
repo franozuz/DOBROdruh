@@ -8,34 +8,13 @@ import Result from './Test/Result';
 import { render } from 'react-dom';
 import './style.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Footer from './components/Footer';
+import Footer from './Footer';
 import Header from './components/Header';
 
 const App = () => {
   return (
     <Router>
       <Header />
-      {/* <nav>
-        <img src="/assets/img/logo_DOBROdruh.svg" alt="logo DOBROdruh" />
-        <ul>
-          <li>
-            <Link to="/">Domov</Link>
-          </li>
-          <li>
-            <Link to="/test/1">Test</Link>
-          </li>
-          <li>
-            <Link to="/calculator">CO2 Kalkulačka</Link>
-          </li>
-          <li>
-            <Link to="/tips">Cestovatelské tipy</Link>
-          </li>
-          <li>
-            <Link to="/projects">EKO projekty</Link>
-          </li>
-        </ul>
-      </nav> */}
-
       <Switch>
         <Route path="/test/result">
           <Result />

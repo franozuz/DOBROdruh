@@ -84,7 +84,7 @@ const Tips = () => {
           </p>
         </div>
         <img src="/assets/img/woman.svg" alt="DOBROdruzka" />
-        <img src="/assets/img/Man.svg" alt="ZLOdruh" />
+        <img src="/assets/img/man.svg" alt="ZLOdruh" />
         <div className="tips__article">
           <h2>V HOTELOVÉM POKOJI</h2>
           <p>
