@@ -94,7 +94,7 @@ const Calculator = () => {
   return !calculationResult ? (
     <form onSubmit={handleSubmit} className="calculator-form">
       <h3>
-        CO2 Kalkulačka
+        CO<sub>2</sub> Kalkulačka
         <br />
         <br />
       </h3>

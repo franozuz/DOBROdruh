@@ -38,12 +38,13 @@ const Home = () => {
             emisí. Od letecké přepravy a plavby lodí až po suvenýry a ubytování
             - to všechno přispívá k uhlíkové stopě cestovního ruchu.Ještě jste
             neslyšeli slovní spojení uhlíková stopa (carbon footprint)?Jde o
-            ukazatel, který udává množství emisí CO2 vyprodukovaných během
-            jednotlivých lidských aktivit. V rámci turismu má největší podíl na
-            emisích právě transport. Ten je odpovědný za 49% globální uhlíkové
-            stopy turismu. Chceš vědět, jakou stopu na naší planetě zanechá
-            tvoje příští cesta? Spočítej si to pomocí naší kalkulačky volba
-            dopravního prostředku také definuje množství vyprodukovaného CO2.
+            ukazatel, který udává množství emisí CO<sub>2</sub>vyprodukovaných
+            během jednotlivých lidských aktivit. V rámci turismu má největší
+            podíl na emisích právě transport. Ten je odpovědný za 49% globální
+            uhlíkové stopy turismu. Chceš vědět, jakou stopu na naší planetě
+            zanechá tvoje příští cesta? Spočítej si to pomocí naší kalkulačky
+            volba dopravního prostředku také definuje množství vyprodukovaného
+            CO<sub>2</sub>.
           </p>
         </article>
         <div className="calculator-input">
