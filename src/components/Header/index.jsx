@@ -29,7 +29,7 @@ const Header = () => {
             <ul>
               <li>
                 <Link onClick={handleClick} to="/" className="nav-link">
-                  Domov
+                  Domů
                 </Link>
               </li>
               <li>
