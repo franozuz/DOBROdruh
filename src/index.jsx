@@ -1,15 +1,15 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { render } from 'react-dom';
 import Home from './Home';
 import Test from './Test';
 import CO2Calculator from './CO2Calculator';
 import Tips from './Tips';
 import Projects from './Projects';
 import Result from './Test/Result';
-import { render } from 'react-dom';
-import './style.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Footer from './Footer';
-import Header from './components/Header';
+import Header from './Header';
+import './style.css';
 
 const App = () => {
   return (
