@@ -76,4 +76,10 @@ p {
 
 a {
   text-decoration: none;
+  color: #8948c6;
+  
+}
+
+a:hover {
+  background-color: #f6c60c;
 }

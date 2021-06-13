@@ -14,9 +14,9 @@ const Tips = () => {
             Je jasné, že když se potřebujete dostat rychle do Kanady, musíte
             letět. Když ale cestujete po Evropě, zkuste volit ekologičtější
             způsob dopravy - vlaky, sdílená auta, kolo. Bude to sice trvat déle,
-            ale při cestování platí, že cesta je cíl. &#128521; Pokud opravdu
-            musíte letět, zvolte raději let bez přestupu. Je to právě start a
-            přistání, které produkují nejvíc CO2. <br />
+            ale při cestování platí, že cesta je cíl. Pokud opravdu musíte
+            letět, zvolte raději let bez přestupu. Je to právě start a přistání,
+            které produkují nejvíc CO2. <br />
             <br />
             Svou uhlíkovou stopu však můžete vykompenzovat. Některé aerolinky
             již nabízí možnost přikoupit kompenzaci přímo s letenkou nebo můžete
@@ -92,8 +92,8 @@ const Tips = () => {
             klimatizaci, když nemusíte platit účty za vodu ani elektřinu. Zkuste
             se v hotelu chovat jako doma. Zhasínat světla a vypínat klimatizaci,
             když odcházíte. Místo koupele se sprchujte, nebo se koupejte ve
-            dvou. &#128521; K napuštění vany je potřeba kolem 200 litrů vody,
-            při sprchování vyšploucháte v průměru jen 40 litrů.
+            dvou. K napuštění vany je potřeba kolem 200 litrů vody, při
+            sprchování vyšploucháte v průměru jen 40 litrů.
             <br />
             <br />
             Pokud vás tato téma zaujala a chcete udělat ještě více, můžete se
@@ -154,7 +154,7 @@ const Tips = () => {
             zamýšleny pro víc hostů, neberte.
             <br />
             <br />A na závěr jeden tip na správnou recyklaci. Každá krajina má
-            odlišný systém třídění a recyklace je fajn se o tom informovat před
+            odlišný systém třídění a recyklace. Proto je dobré se o tom informovat před
             cestou. Vychytané tipy na správné třídění v Česku naleznete na{' '}
             <a href="https://www.samosebou.cz/">Samosebou.</a>
           </p>
