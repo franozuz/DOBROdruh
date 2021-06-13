@@ -46,7 +46,7 @@
   color: black;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 650px) {
   .calculator-result {
     background: #f6c60c;
     max-width: 90%;
@@ -60,7 +60,7 @@
 
   .btn-result1,
   .btn-result2 {
-    width: 8rem;
+    max-width: 8rem;
     margin-left: 0;
   }
 }

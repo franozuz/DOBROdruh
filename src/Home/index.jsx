@@ -41,7 +41,7 @@ const Home = () => {
             ukazatel, který udává množství emisí CO2 vyprodukovaných během
             jednotlivých lidských aktivit. V rámci turismu má největší podíl na
             emisích právě transport. Ten je odpovědný za 49% globální uhlíkové
-            stopy turizmu. Chceš vědět, jakou stopu na naší planetě zanechá
+            stopy turismu. Chceš vědět, jakou stopu na naší planetě zanechá
             tvoje příští cesta? Spočítej si to pomocí naší kalkulačky volba
             dopravního prostředku také definuje množství vyprodukovaného CO2.
           </p>

@@ -138,8 +138,8 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 650px) {
   .home__calculator > .calculator-input {
-    max-width: 100%;
+    max-width: 80%;
   }
 }

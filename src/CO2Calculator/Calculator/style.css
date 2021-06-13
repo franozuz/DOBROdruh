@@ -50,7 +50,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 650px) {
   .calculator-form {
     background: #f6c60c;
     max-width: 85%;
@@ -60,6 +60,6 @@
   .calculator-form > input,
   .calculator-form > select,
   .btn-calculator {
-    max-width: 17rem;
+    max-width: 50%;
   }
 }
