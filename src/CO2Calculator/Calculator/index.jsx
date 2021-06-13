@@ -60,8 +60,8 @@ const Calculator = () => {
   };
 
   const calculatePlaneResult = () => {
-    const indexCO2 = 4.64;
-    const result = roundTwo((distance / 100) * indexCO2 * passangers);
+    const indexCO2 = 0.09;
+    const result = roundTwo(distance * indexCO2 * passangers);
     if (trip === 'one-way') {
       displayResult(result);
     }
