@@ -15,7 +15,7 @@ const Home = () => {
           <h1>Jsi pravý DOBROdruh?</h1>
           <p>
             Cestování je skvělé, rozšiřuje naše obzory a pomáhá objevovat nové
-            uhly pohledu. Temnou stránkou ale může být negativní vliv na životní
+            úhly pohledu. Temnou stránkou ale může být negativní vliv na životní
             prostředí. A ne každý cestovatel je DOBROdruh. Někteří jsou spíš
             ZLOdruhové. ZLOdruhové hážou na zem plastové láhve, ignorují zákazy
             vstupu v chráněných oblastech, a tak dále. <br />

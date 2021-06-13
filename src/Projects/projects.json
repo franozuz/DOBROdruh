@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/hnuti-duha_logo.jpg",
+    "image": "/assets/projects/hnuti-duha_logo.jpg",
     "alt": "Hnutí Duha",
     "name": "Hnutí Duha",
     "description": "Hnutí DUHA prosazuje zdravé prostředí pro život, pestrou přírodu a chytrou ekonomiku. Dokáže rozhýbat politiky a úřady, jedná s firmami a pomáhá domácnostem.",
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/img/cmelak_logo.jpg",
+    "image": "/assets/projects/cmelak_logo.jpg",
     "alt": "Čmelák",
     "name": "Čmelák",
     "description": "Organizace, která již 25 let trpělivě, krok za krokem, přetváří konkrétní místa v krajině tak, aby na nich dostala prostor příroda. Ne zisk ani soukromé zájmy, ale příroda.",
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "image": "/assets/img/trash-hero_logo.jpg",
+    "image": "/assets/projects/trash-hero_logo.jpg",
     "alt": "Trash Hero",
     "name": "Trash Hero",
     "description": "Česká neziskovka a parta dobrovolníků, která bere ekologii s úsměvem a do vlastních rukou. Patří ke světovému hnutí Trash Hero, které uklízí na 162 místech v 15 zemích.",
@@ -25,7 +25,7 @@
   },
   {
     "id": 4,
-    "image": "/assets/img/zachranme-lesy_logo.jpg",
+    "image": "/assets/projects/zachranme-lesy_logo.jpg",
     "alt": "Zachraňme lesy",
     "name": "Zachraňme lesy",
     "description": "Vrací život zpět tam, kam patří. Do našich lesů. Aby byli pestřejší a stabilnější. Ať už změnou zákonů, vyhlášek nebo prací.",
@@ -33,7 +33,7 @@
   },
   {
     "id": 5,
-    "image": "/assets/img/cisty-les_logo.jpg",
+    "image": "/assets/projects/cisty-les_logo.jpg",
     "alt": "Čistý les",
     "name": "Čistý les",
     "description": "Uklízí lesy a přírodu od odpadků a skládek. Seznamují děti i dospělé s tříděním a recyklací a aktuálními tématy z oblasti ochrany životního prostředí a globálními ekologickými problémy.",
@@ -41,7 +41,7 @@
   },
   {
     "id": 6,
-    "image": "/assets/img/home-for-trees_logo.jpg",
+    "image": "/assets/projects/home-for-trees_logo.jpg",
     "alt": "Home for Trees",
     "name": "Home for Trees",
     "description": "Ekologická organizace Home for Trees působí jako platforma pro sázení, péči a ochranu stromů a lesů v České republice. Jejich vizí jsou bohaté zdravé lesy plné rozmanitého života.",
@@ -49,7 +49,7 @@
   },
   {
     "id": 7,
-    "image": "/assets/img/keep-it-clean_logo.png",
+    "image": "/assets/projects/keep-it-clean_logo.png",
     "alt": "Keep it Clean",
     "name": "Keep it Clean",
     "description": "Parta nadšenců. Sbírají odpadky, kudy chodí. Přitom stíhají dělat hezké fotky a vymýšlet zlepšováky.Jako třeba Bouda na špačky nebo Popelníčky KiC.",
@@ -57,7 +57,7 @@
   },
   {
     "id": 8,
-    "image": "/assets/img/snizujeme-co2_logo.jpg",
+    "image": "/assets/projects/snizujeme-co2_logo.jpg",
     "alt": "Snižujeme CO2",
     "name": "Snižujeme CO2",
     "description": "Jestli chcete vykompenzovat uhlíkovou stopu své firmy, můžete se obrátit právě na českou organizaci CI2, která vám pomůže vypracovat lokální řešení.",
